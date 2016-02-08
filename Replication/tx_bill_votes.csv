@@ -1,0 +1,1352 @@
+level,country,state,session,chamber,bill_id,vote_id,vote_chamber,motion,date,type,yes_count,no_count,other_count
+state,us,tx,81,lower,HB 10,TXV00000001,lower,final passage,2009-04-28 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 1007,TXV00000002,lower,final passage,2009-05-04 00:00:00,passage,93,46,11
+state,us,tx,81,lower,HB 1012,TXV00000003,lower,final passage,2009-04-30 00:00:00,passage,132,0,18
+state,us,tx,81,lower,HB 1013,TXV00000004,lower,final passage,2009-04-24 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 1020,TXV00000005,upper,to third reading,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1020,TXV00000006,lower,final passage,2009-05-04 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 1023,TXV00000007,lower,final passage,2009-04-02 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 1029,TXV00000008,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 103,TXV00000009,lower,final passage,2009-05-13 00:00:00,passage,143,4,3
+state,us,tx,81,lower,HB 1031,TXV00000010,lower,final passage,2009-05-06 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 1038,TXV00000011,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1038,TXV00000012,lower,final passage,2009-03-31 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 1043,TXV00000013,lower,final passage,2009-04-21 00:00:00,passage,139,5,6
+state,us,tx,81,lower,HB 1054,TXV00000014,lower,final passage,2009-05-04 00:00:00,passage,120,23,7
+state,us,tx,81,lower,HB 1055,TXV00000015,lower,final passage,2009-05-15 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 107,TXV00000016,lower,final passage,2009-04-22 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 1079,TXV00000017,upper,to third reading,2009-05-13 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1079,TXV00000018,upper,to third reading,2009-05-13 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 1079,TXV00000019,lower,final passage,2009-04-07 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 108,TXV00000020,lower,final passage,2009-04-24 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HB 1083,TXV00000021,lower,final passage,2009-05-11 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HB 1084,TXV00000022,lower,final passage,2009-04-08 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 1093,TXV00000023,lower,final passage,2009-04-28 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 1109,TXV00000024,upper,to third reading,2009-05-19 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1109,TXV00000025,lower,final passage,2009-04-28 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 1134,TXV00000026,upper,to third reading,2009-05-22 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1146,TXV00000027,lower,final passage,2009-05-13 00:00:00,passage,127,17,6
+state,us,tx,81,lower,HB 1148,TXV00000028,lower,final passage,2009-04-22 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 1161,TXV00000029,lower,final passage,2009-04-02 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 1162,TXV00000030,lower,final passage,2009-04-02 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 1182,TXV00000031,lower,final passage,2009-05-12 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 1187,TXV00000032,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1196,TXV00000033,lower,final passage,2009-05-15 00:00:00,passage,137,0,13
+state,us,tx,81,lower,HB 1203,TXV00000034,upper,to third reading,2009-05-13 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1203,TXV00000035,lower,final passage,2009-04-22 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 1209,TXV00000036,lower,final passage,2009-05-15 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 1218,TXV00000037,lower,final passage,2009-05-12 00:00:00,passage,145,1,4
+state,us,tx,81,lower,HB 1229,TXV00000038,lower,final passage,2009-05-13 00:00:00,passage,140,4,6
+state,us,tx,81,lower,HB 124,TXV00000039,lower,final passage,2009-05-06 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 1240,TXV00000040,lower,final passage,2009-03-31 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 1243,TXV00000041,lower,final passage,2009-05-15 00:00:00,passage,99,36,15
+state,us,tx,81,lower,HB 1255,TXV00000042,upper,to third reading,2009-05-22 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1259,TXV00000043,lower,final passage,2009-05-12 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 1275,TXV00000044,upper,to third reading,2009-05-27 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1275,TXV00000045,upper,to third reading,2009-05-27 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 1277,TXV00000046,lower,final passage,2009-05-13 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 1282,TXV00000047,upper,to third reading,2009-05-11 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1282,TXV00000048,lower,final passage,2009-04-08 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 1290,TXV00000049,lower,final passage,2009-04-21 00:00:00,passage,87,57,6
+state,us,tx,81,lower,HB 1297,TXV00000050,lower,final passage,2009-03-31 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 1299,TXV00000051,lower,to engrossment,2009-05-14 00:00:00,other,122,11,17
+state,us,tx,81,lower,HB 1299,TXV00000052,lower,final passage,2009-05-15 00:00:00,passage,88,48,14
+state,us,tx,81,lower,HB 130,TXV00000053,lower,final passage,2009-05-08 00:00:00,passage,106,31,13
+state,us,tx,81,lower,HB 1309,TXV00000054,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1310,TXV00000055,lower,final passage,2009-04-22 00:00:00,passage,127,19,4
+state,us,tx,81,lower,HB 1319,TXV00000056,lower,final passage,2009-05-13 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 1320,TXV00000057,lower,final passage,2009-05-05 00:00:00,passage,109,30,11
+state,us,tx,81,lower,HB 1322,TXV00000058,lower,final passage,2009-04-24 00:00:00,passage,137,0,13
+state,us,tx,81,lower,HB 1324,TXV00000059,upper,to third reading,2009-05-19 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1325,TXV00000060,upper,to third reading,2009-05-25 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1325,TXV00000061,lower,final passage,2009-04-28 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 1326,TXV00000062,lower,final passage,2009-05-15 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 1357,TXV00000063,lower,final passage,2009-05-11 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 1358,TXV00000064,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1358,TXV00000065,lower,final passage,2009-05-07 00:00:00,passage,141,2,7
+state,us,tx,81,lower,HB 136,TXV00000066,lower,final passage,2009-05-07 00:00:00,passage,78,63,9
+state,us,tx,81,lower,HB 1360,TXV00000067,lower,final passage,2009-05-01 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 1362,TXV00000068,lower,final passage,2009-05-04 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 1364,TXV00000069,upper,to third reading,2009-05-14 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1365,TXV00000070,lower,final passage,2009-04-24 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 1366,TXV00000071,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1372,TXV00000072,lower,final passage,2009-04-22 00:00:00,passage,149,0,1
+state,us,tx,81,lower,HB 1396,TXV00000073,lower,final passage,2009-05-15 00:00:00,passage,103,34,13
+state,us,tx,81,lower,HB 1399,TXV00000074,lower,final passage,2009-05-08 00:00:00,passage,119,18,13
+state,us,tx,81,lower,HB 1404,TXV00000075,lower,final passage,2009-04-07 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 1407,TXV00000076,lower,final passage,2009-04-21 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 1409,TXV00000077,upper,to third reading,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1420,TXV00000078,lower,final passage,2009-05-07 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 1423,TXV00000079,upper,to third reading,2009-05-25 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1423,TXV00000080,lower,final passage,2009-04-30 00:00:00,passage,130,1,19
+state,us,tx,81,lower,HB 1425,TXV00000081,upper,to third reading,2009-05-22 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1425,TXV00000082,upper,to third reading,2009-05-22 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 1445,TXV00000083,lower,final passage,2009-04-21 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 1454,TXV00000084,lower,final passage,2009-04-15 00:00:00,passage,116,27,7
+state,us,tx,81,lower,HB 1462,TXV00000085,lower,to engrossment,2009-04-23 00:00:00,other,85,56,9
+state,us,tx,81,lower,HB 1462,TXV00000086,lower,final passage,2009-04-27 00:00:00,passage,87,57,6
+state,us,tx,81,lower,HB 1466,TXV00000087,upper,to third reading,2009-05-13 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1468,TXV00000088,lower,final passage,2009-04-22 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 148,TXV00000089,lower,final passage,2009-05-15 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 1484,TXV00000090,upper,to third reading,2009-04-27 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1484,TXV00000091,upper,to engrossment,2009-04-27 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1484,TXV00000092,lower,final passage,2009-04-07 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 1485,TXV00000093,lower,final passage,2009-04-22 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 1498,TXV00000094,lower,final passage,2009-05-01 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HB 1505,TXV00000095,lower,final passage,2009-04-21 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 1506,TXV00000096,lower,final passage,2009-04-28 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 1509,TXV00000097,lower,final passage,2009-04-28 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 1510,TXV00000098,upper,to third reading,2009-05-12 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1513,TXV00000099,upper,to third reading,2009-05-19 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1513,TXV00000100,lower,final passage,2009-04-22 00:00:00,passage,149,0,1
+state,us,tx,81,lower,HB 1517,TXV00000101,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1530,TXV00000102,lower,final passage,2009-04-09 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 1533,TXV00000103,lower,final passage,2009-05-07 00:00:00,passage,85,58,7
+state,us,tx,81,lower,HB 155,TXV00000104,lower,final passage,2009-05-08 00:00:00,passage,135,2,13
+state,us,tx,81,lower,HB 1568,TXV00000105,upper,to third reading,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1568,TXV00000106,upper,to engrossment,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1574,TXV00000107,lower,final passage,2009-04-22 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 1579,TXV00000108,upper,to third reading,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1579,TXV00000109,lower,final passage,2009-04-24 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 1580,TXV00000110,lower,final passage,2009-04-07 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 1590,TXV00000111,lower,final passage,2009-04-21 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 1595,TXV00000112,lower,final passage,2009-04-02 00:00:00,passage,143,2,5
+state,us,tx,81,lower,HB 1614,TXV00000113,upper,to third reading,2009-05-23 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1615,TXV00000114,lower,final passage,2009-04-15 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 1617,TXV00000115,lower,final passage,2009-05-08 00:00:00,passage,133,3,14
+state,us,tx,81,lower,HB 1622,TXV00000116,upper,to third reading,2009-05-12 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1629,TXV00000117,lower,final passage,2009-04-29 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HB 1630,TXV00000118,lower,final passage,2009-05-04 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 1633,TXV00000119,lower,final passage,2009-04-24 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 1634,TXV00000120,lower,final passage,2009-05-01 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 1637,TXV00000121,lower,to engrossment,2009-03-25 00:00:00,other,145,0,5
+state,us,tx,81,lower,HB 1637,TXV00000122,lower,final passage,2009-03-26 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 1657,TXV00000123,lower,to engrossment,2009-05-13 00:00:00,other,75,69,6
+state,us,tx,81,lower,HB 1659,TXV00000124,lower,final passage,2009-04-29 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HB 1669,TXV00000125,lower,final passage,2009-05-14 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 1671,TXV00000126,lower,final passage,2009-03-31 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 1672,TXV00000127,lower,final passage,2009-04-08 00:00:00,passage,141,4,5
+state,us,tx,81,lower,HB 1682,TXV00000128,upper,to third reading,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1684,TXV00000129,lower,final passage,2009-04-21 00:00:00,passage,144,1,5
+state,us,tx,81,lower,HB 1688,TXV00000130,lower,final passage,2009-04-22 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 1693,TXV00000131,lower,final passage,2009-04-24 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 1695,TXV00000132,lower,final passage,2009-03-26 00:00:00,passage,140,6,4
+state,us,tx,81,lower,HB 1705,TXV00000133,lower,final passage,2009-04-22 00:00:00,passage,149,0,1
+state,us,tx,81,lower,HB 1711,TXV00000134,lower,final passage,2009-04-24 00:00:00,passage,101,38,11
+state,us,tx,81,lower,HB 1721,TXV00000135,lower,final passage,2009-04-28 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 1728,TXV00000136,lower,final passage,2009-04-24 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 1731,TXV00000137,upper,to third reading,2009-05-13 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1731,TXV00000138,lower,final passage,2009-04-21 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 1736,TXV00000139,lower,final passage,2009-04-24 00:00:00,passage,136,1,13
+state,us,tx,81,lower,HB 1740,TXV00000140,lower,final passage,2009-04-21 00:00:00,passage,140,1,9
+state,us,tx,81,lower,HB 176,TXV00000141,lower,final passage,2009-05-13 00:00:00,passage,136,0,14
+state,us,tx,81,lower,HB 1771,TXV00000142,lower,final passage,2009-05-01 00:00:00,passage,82,55,13
+state,us,tx,81,lower,HB 1783,TXV00000143,lower,final passage,2009-04-21 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 1787,TXV00000144,lower,final passage,2009-04-29 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 1793,TXV00000145,upper,to third reading,2009-05-13 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1793,TXV00000146,lower,final passage,2009-04-24 00:00:00,passage,138,1,11
+state,us,tx,81,lower,HB 1795,TXV00000147,lower,final passage,2009-05-14 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 1796,TXV00000148,lower,final passage,2009-05-07 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 1799,TXV00000149,upper,to third reading,2009-05-27 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1799,TXV00000150,upper,to third reading,2009-05-27 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 1799,TXV00000151,lower,final passage,2009-04-29 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 1801,TXV00000152,upper,to third reading,2009-05-25 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1801,TXV00000153,lower,final passage,2009-05-13 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 1802,TXV00000154,upper,to third reading,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1804,TXV00000155,lower,final passage,2009-04-24 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 1805,TXV00000156,upper,to third reading,2009-05-13 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1805,TXV00000157,upper,to engrossment,2009-05-13 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1810,TXV00000158,lower,final passage,2009-05-08 00:00:00,passage,130,5,15
+state,us,tx,81,lower,HB 1813,TXV00000159,upper,to third reading,2009-05-11 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1813,TXV00000160,lower,final passage,2009-04-21 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 1814,TXV00000161,lower,final passage,2009-04-24 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 1819,TXV00000162,lower,final passage,2009-04-07 00:00:00,passage,129,15,6
+state,us,tx,81,lower,HB 1822,TXV00000163,lower,final passage,2009-03-26 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 1830,TXV00000164,lower,final passage,2009-04-02 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 1831,TXV00000165,lower,final passage,2009-04-24 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 184,TXV00000166,lower,final passage,2009-05-13 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 1861,TXV00000167,lower,final passage,2009-04-24 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 1866,TXV00000168,lower,final passage,2009-04-24 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 1871,TXV00000169,upper,to third reading,2009-04-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1871,TXV00000170,upper,to third reading,2009-04-21 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 1871,TXV00000171,upper,to engrossment,2009-04-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1881,TXV00000172,lower,final passage,2009-04-23 00:00:00,passage,144,1,5
+state,us,tx,81,lower,HB 1888,TXV00000173,lower,final passage,2009-04-17 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 1890,TXV00000174,lower,final passage,2009-05-07 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 19,TXV00000175,lower,final passage,2009-04-08 00:00:00,passage,146,1,3
+state,us,tx,81,lower,HB 1905,TXV00000176,lower,final passage,2009-05-06 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 1908,TXV00000177,lower,final passage,2009-04-09 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 1914,TXV00000178,lower,final passage,2009-05-01 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 1918,TXV00000179,upper,to third reading,2009-05-14 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1918,TXV00000180,upper,to third reading,2009-05-14 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 1918,TXV00000181,lower,final passage,2009-04-07 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 192,TXV00000182,lower,final passage,2009-05-07 00:00:00,passage,142,3,5
+state,us,tx,81,lower,HB 1923,TXV00000183,upper,to third reading,2009-05-13 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1924,TXV00000184,lower,final passage,2009-04-24 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 1928,TXV00000185,lower,final passage,2009-05-13 00:00:00,passage,86,57,7
+state,us,tx,81,lower,HB 1935,TXV00000186,lower,final passage,2009-05-07 00:00:00,passage,92,51,7
+state,us,tx,81,lower,HB 1937,TXV00000187,lower,final passage,2009-05-15 00:00:00,passage,87,51,12
+state,us,tx,81,lower,HB 1943,TXV00000188,lower,final passage,2009-05-13 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 1946,TXV00000189,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1949,TXV00000190,lower,final passage,2009-04-28 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 1959,TXV00000191,lower,final passage,2009-05-06 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 1965,TXV00000192,lower,final passage,2009-04-23 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 1966,TXV00000193,lower,final passage,2009-05-07 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 1973,TXV00000194,lower,final passage,2009-05-08 00:00:00,passage,129,5,16
+state,us,tx,81,lower,HB 1975,TXV00000195,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1976,TXV00000196,lower,final passage,2009-05-15 00:00:00,passage,98,33,19
+state,us,tx,81,lower,HB 1979,TXV00000197,upper,to third reading,2009-05-19 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1983,TXV00000198,lower,final passage,2009-04-22 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 1985,TXV00000199,lower,final passage,2009-04-22 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 1988,TXV00000200,lower,final passage,2009-05-15 00:00:00,passage,135,0,15
+state,us,tx,81,lower,HB 1990,TXV00000201,upper,to third reading,2009-05-13 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 1990,TXV00000202,lower,final passage,2009-04-23 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 1993,TXV00000203,lower,final passage,2009-05-14 00:00:00,passage,88,53,9
+state,us,tx,81,lower,HB 1998,TXV00000204,lower,final passage,2009-04-23 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 200,TXV00000205,upper,to third reading,2009-05-25 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 200,TXV00000206,lower,final passage,2009-05-07 00:00:00,passage,94,48,8
+state,us,tx,81,lower,HB 2000,TXV00000207,lower,final passage,2009-05-14 00:00:00,passage,99,28,23
+state,us,tx,81,lower,HB 2002,TXV00000208,lower,final passage,2009-05-13 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 2003,TXV00000209,lower,final passage,2009-05-13 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 2004,TXV00000210,lower,final passage,2009-04-28 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 2012,TXV00000211,lower,final passage,2009-05-15 00:00:00,passage,133,1,16
+state,us,tx,81,lower,HB 2013,TXV00000212,lower,final passage,2009-05-11 00:00:00,passage,125,20,5
+state,us,tx,81,lower,HB 2014,TXV00000213,lower,final passage,2009-05-13 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HB 2018,TXV00000214,lower,final passage,2009-04-23 00:00:00,passage,96,47,7
+state,us,tx,81,lower,HB 2020,TXV00000215,upper,to third reading,2009-05-12 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2027,TXV00000216,lower,final passage,2009-04-23 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 2030,TXV00000217,lower,final passage,2009-04-08 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 2032,TXV00000218,lower,final passage,2009-04-24 00:00:00,passage,137,0,13
+state,us,tx,81,lower,HB 2037,TXV00000219,lower,final passage,2009-04-28 00:00:00,passage,104,42,4
+state,us,tx,81,lower,HB 2038,TXV00000220,lower,final passage,2009-05-15 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 2039,TXV00000221,upper,to third reading,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2039,TXV00000222,lower,final passage,2009-04-24 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 2042,TXV00000223,upper,to third reading,2009-05-07 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2042,TXV00000224,upper,to third reading,2009-05-07 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 205,TXV00000225,upper,to third reading,2009-05-13 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 205,TXV00000226,lower,final passage,2009-04-09 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 2052,TXV00000227,lower,final passage,2009-04-17 00:00:00,passage,149,0,1
+state,us,tx,81,lower,HB 2055,TXV00000228,upper,to third reading,2009-05-14 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2058,TXV00000229,upper,to third reading,2009-05-04 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2058,TXV00000230,lower,final passage,2009-04-07 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 206,TXV00000231,lower,final passage,2009-05-15 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 2064,TXV00000232,lower,final passage,2009-04-08 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 2066,TXV00000233,lower,to engrossment,2009-04-23 00:00:00,other,123,7,20
+state,us,tx,81,lower,HB 2066,TXV00000234,lower,final passage,2009-04-24 00:00:00,passage,111,26,13
+state,us,tx,81,lower,HB 2071,TXV00000235,upper,to third reading,2009-05-13 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2071,TXV00000236,lower,final passage,2009-04-24 00:00:00,passage,132,0,18
+state,us,tx,81,lower,HB 2073,TXV00000237,lower,final passage,2009-04-08 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 2074,TXV00000238,lower,final passage,2009-04-15 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 2086,TXV00000239,lower,final passage,2009-04-24 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 2093,TXV00000240,lower,final passage,2009-05-11 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 2097,TXV00000241,lower,final passage,2009-04-24 00:00:00,passage,131,0,19
+state,us,tx,81,lower,HB 2100,TXV00000242,lower,final passage,2009-04-24 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 2118,TXV00000243,lower,final passage,2009-05-13 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 2128,TXV00000244,lower,final passage,2009-05-15 00:00:00,passage,127,12,11
+state,us,tx,81,lower,HB 2130,TXV00000245,upper,to third reading,2009-05-22 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2139,TXV00000246,lower,final passage,2009-04-24 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 2142,TXV00000247,lower,final passage,2009-05-15 00:00:00,passage,132,1,17
+state,us,tx,81,lower,HB 2154,TXV00000248,lower,to engrossment,2009-05-12 00:00:00,other,83,55,12
+state,us,tx,81,lower,HB 2154,TXV00000249,lower,final passage,2009-05-13 00:00:00,passage,79,61,10
+state,us,tx,81,lower,HB 2154,TXV00000250,lower,final passage,2009-05-13 00:00:00,,79,61,10
+state,us,tx,81,lower,HB 2163,TXV00000251,lower,final passage,2009-05-15 00:00:00,passage,135,4,11
+state,us,tx,81,lower,HB 2165,TXV00000252,lower,final passage,2009-05-04 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 2168,TXV00000253,lower,final passage,2009-04-24 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 2187,TXV00000254,lower,final passage,2009-04-24 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 2191,TXV00000255,lower,final passage,2009-05-04 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 2202,TXV00000256,lower,final passage,2009-04-24 00:00:00,passage,133,0,17
+state,us,tx,81,lower,HB 221,TXV00000257,lower,final passage,2009-05-07 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 2219,TXV00000258,upper,to third reading,2009-05-14 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2219,TXV00000259,lower,final passage,2009-04-24 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 2225,TXV00000260,lower,final passage,2009-04-28 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 2230,TXV00000261,lower,final passage,2009-05-04 00:00:00,passage,109,32,9
+state,us,tx,81,lower,HB 2236,TXV00000262,lower,final passage,2009-04-30 00:00:00,passage,132,0,18
+state,us,tx,81,lower,HB 2240,TXV00000263,lower,final passage,2009-05-07 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 2242,TXV00000264,lower,final passage,2009-05-08 00:00:00,passage,132,0,18
+state,us,tx,81,lower,HB 2245,TXV00000265,lower,final passage,2009-05-15 00:00:00,passage,73,64,13
+state,us,tx,81,lower,HB 2248,TXV00000266,lower,final passage,2009-05-12 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 2249,TXV00000267,lower,final passage,2009-04-24 00:00:00,passage,137,0,13
+state,us,tx,81,lower,HB 2256,TXV00000268,lower,final passage,2009-05-11 00:00:00,passage,139,2,9
+state,us,tx,81,lower,HB 2259,TXV00000269,lower,final passage,2009-04-29 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 2267,TXV00000270,lower,final passage,2009-05-15 00:00:00,passage,69,66,15
+state,us,tx,81,lower,HB 2283,TXV00000271,lower,final passage,2009-04-30 00:00:00,passage,128,1,21
+state,us,tx,81,lower,HB 2289,TXV00000272,lower,final passage,2009-04-29 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 2291,TXV00000273,upper,to third reading,2009-05-27 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2291,TXV00000274,lower,final passage,2009-05-08 00:00:00,passage,133,0,17
+state,us,tx,81,lower,HB 2295,TXV00000275,lower,final passage,2009-05-07 00:00:00,passage,137,7,6
+state,us,tx,81,lower,HB 230,TXV00000276,lower,final passage,2009-05-12 00:00:00,passage,111,38,1
+state,us,tx,81,lower,HB 2303,TXV00000277,upper,to third reading,2009-05-19 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2303,TXV00000278,lower,final passage,2009-04-29 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 2304,TXV00000279,lower,final passage,2009-04-24 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 2307,TXV00000280,upper,to third reading,2009-05-27 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2308,TXV00000281,lower,final passage,2009-05-08 00:00:00,passage,79,55,16
+state,us,tx,81,lower,HB 2314,TXV00000282,upper,to third reading,2009-05-14 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2317,TXV00000283,lower,final passage,2009-04-28 00:00:00,passage,134,12,4
+state,us,tx,81,lower,HB 2318,TXV00000284,lower,final passage,2009-04-24 00:00:00,passage,132,0,18
+state,us,tx,81,lower,HB 232,TXV00000285,lower,final passage,2009-04-22 00:00:00,passage,120,25,5
+state,us,tx,81,lower,HB 2328,TXV00000286,lower,final passage,2009-04-30 00:00:00,passage,131,0,19
+state,us,tx,81,lower,HB 233,TXV00000287,lower,final passage,2009-05-07 00:00:00,passage,95,48,7
+state,us,tx,81,lower,HB 2333,TXV00000288,upper,to third reading,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2347,TXV00000289,lower,final passage,2009-04-29 00:00:00,passage,98,43,9
+state,us,tx,81,lower,HB 2348,TXV00000290,upper,to third reading,2009-05-25 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2360,TXV00000291,lower,final passage,2009-05-08 00:00:00,passage,85,52,13
+state,us,tx,81,lower,HB 2368,TXV00000292,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2368,TXV00000293,upper,to third reading,2009-05-26 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 2374,TXV00000294,lower,to engrossment,2009-04-07 00:00:00,other,109,34,7
+state,us,tx,81,lower,HB 2374,TXV00000295,lower,final passage,2009-04-08 00:00:00,passage,102,43,5
+state,us,tx,81,lower,HB 2386,TXV00000296,lower,final passage,2009-05-04 00:00:00,passage,97,46,7
+state,us,tx,81,lower,HB 2387,TXV00000297,lower,final passage,2009-04-15 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 2389,TXV00000298,lower,final passage,2009-04-28 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 2421,TXV00000299,lower,final passage,2009-04-17 00:00:00,passage,149,0,1
+state,us,tx,81,lower,HB 2424,TXV00000300,upper,to third reading,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2435,TXV00000301,lower,final passage,2009-05-04 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 2438,TXV00000302,lower,final passage,2009-05-11 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 2440,TXV00000303,upper,to third reading,2009-05-14 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2440,TXV00000304,upper,to engrossment,2009-05-14 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2440,TXV00000305,lower,final passage,2009-04-24 00:00:00,passage,134,4,12
+state,us,tx,81,lower,HB 2447,TXV00000306,lower,final passage,2009-04-28 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 2456,TXV00000307,lower,final passage,2009-05-11 00:00:00,passage,112,29,9
+state,us,tx,81,lower,HB 2457,TXV00000308,upper,to third reading,2009-04-23 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2465,TXV00000309,lower,final passage,2009-04-28 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 2480,TXV00000310,lower,final passage,2009-04-28 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 2488,TXV00000311,lower,final passage,2009-04-30 00:00:00,passage,132,0,18
+state,us,tx,81,lower,HB 2491,TXV00000312,lower,final passage,2009-04-24 00:00:00,passage,107,18,25
+state,us,tx,81,lower,HB 25,TXV00000313,lower,final passage,2009-04-02 00:00:00,passage,129,13,8
+state,us,tx,81,lower,HB 2500,TXV00000314,lower,final passage,2009-05-04 00:00:00,passage,127,14,9
+state,us,tx,81,lower,HB 2502,TXV00000315,lower,final passage,2009-04-24 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 2504,TXV00000316,upper,final passage,2009-05-27 00:00:00,passage,0,0,0
+state,us,tx,81,lower,HB 2504,TXV00000317,lower,final passage,2009-05-08 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 2507,TXV00000318,lower,final passage,2009-04-28 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 2509,TXV00000319,upper,to third reading,2009-05-15 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2511,TXV00000320,lower,final passage,2009-05-15 00:00:00,passage,71,63,16
+state,us,tx,81,lower,HB 2515,TXV00000321,lower,final passage,2009-04-28 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 2524,TXV00000322,upper,to third reading,2009-05-27 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2527,TXV00000323,lower,final passage,2009-04-23 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 2529,TXV00000324,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2531,TXV00000325,lower,final passage,2009-05-04 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 2532,TXV00000326,lower,final passage,2009-04-28 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 2536,TXV00000327,lower,final passage,2009-05-11 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 2542,TXV00000328,lower,final passage,2009-04-15 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 2546,TXV00000329,lower,final passage,2009-04-22 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 2548,TXV00000330,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2556,TXV00000331,upper,to third reading,2009-05-25 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2556,TXV00000332,lower,final passage,2009-05-04 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 2557,TXV00000333,lower,final passage,2009-04-24 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 2558,TXV00000334,upper,to third reading,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2559,TXV00000335,lower,final passage,2009-05-11 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HB 2560,TXV00000336,upper,to third reading,2009-05-08 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2564,TXV00000337,lower,final passage,2009-05-06 00:00:00,passage,145,1,4
+state,us,tx,81,lower,HB 2569,TXV00000338,upper,to third reading,2009-05-13 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2569,TXV00000339,upper,to engrossment,2009-05-13 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2571,TXV00000340,lower,final passage,2009-04-28 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 2572,TXV00000341,lower,final passage,2009-04-28 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 2580,TXV00000342,lower,final passage,2009-04-28 00:00:00,passage,142,4,4
+state,us,tx,81,lower,HB 2582,TXV00000343,lower,final passage,2009-05-05 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HB 2584,TXV00000344,lower,final passage,2009-05-07 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HB 2609,TXV00000345,lower,final passage,2009-05-13 00:00:00,passage,140,1,9
+state,us,tx,81,lower,HB 2619,TXV00000346,lower,final passage,2009-04-24 00:00:00,passage,134,0,16
+state,us,tx,81,lower,HB 2626,TXV00000347,lower,final passage,2009-04-22 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 2628,TXV00000348,upper,to third reading,2009-05-19 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2649,TXV00000349,lower,final passage,2009-05-07 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 2654,TXV00000350,upper,to third reading,2009-05-25 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2654,TXV00000351,lower,final passage,2009-05-12 00:00:00,passage,137,12,1
+state,us,tx,81,lower,HB 2656,TXV00000352,lower,final passage,2009-05-11 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 2666,TXV00000353,lower,final passage,2009-04-08 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 2667,TXV00000354,lower,final passage,2009-04-28 00:00:00,passage,114,33,3
+state,us,tx,81,lower,HB 2685,TXV00000355,upper,to third reading,2009-05-25 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2685,TXV00000356,lower,final passage,2009-05-05 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 269,TXV00000357,lower,final passage,2009-05-12 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HB 270,TXV00000358,lower,final passage,2009-04-22 00:00:00,passage,146,1,3
+state,us,tx,81,lower,HB 2705,TXV00000359,lower,final passage,2009-05-13 00:00:00,passage,143,1,6
+state,us,tx,81,lower,HB 2708,TXV00000360,upper,to third reading,2009-05-27 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 271,TXV00000361,lower,final passage,2009-03-31 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 2726,TXV00000362,upper,to third reading,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2729,TXV00000363,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2729,TXV00000364,lower,final passage,2009-04-28 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 2730,TXV00000365,lower,final passage,2009-05-14 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 2735,TXV00000366,lower,final passage,2009-05-04 00:00:00,passage,133,0,17
+state,us,tx,81,lower,HB 2740,TXV00000367,lower,final passage,2009-05-12 00:00:00,passage,81,66,3
+state,us,tx,81,lower,HB 2757,TXV00000368,lower,final passage,2009-04-30 00:00:00,passage,130,0,20
+state,us,tx,81,lower,HB 2774,TXV00000369,lower,final passage,2009-04-28 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 2779,TXV00000370,lower,final passage,2009-04-28 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 2783,TXV00000371,lower,final passage,2009-05-14 00:00:00,passage,76,55,19
+state,us,tx,81,lower,HB 2788,TXV00000372,lower,final passage,2009-05-05 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 28,TXV00000373,lower,final passage,2009-04-24 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 2805,TXV00000374,upper,to third reading,2009-05-25 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2806,TXV00000375,lower,final passage,2009-04-28 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 281,TXV00000376,lower,final passage,2009-04-24 00:00:00,passage,95,41,14
+state,us,tx,81,lower,HB 2820,TXV00000377,lower,final passage,2009-05-11 00:00:00,passage,138,9,3
+state,us,tx,81,lower,HB 2828,TXV00000378,lower,final passage,2009-05-15 00:00:00,passage,117,22,11
+state,us,tx,81,lower,HB 2835,TXV00000379,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2840,TXV00000380,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2846,TXV00000381,lower,final passage,2009-05-13 00:00:00,passage,140,1,9
+state,us,tx,81,lower,HB 2859,TXV00000382,lower,final passage,2009-05-11 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 2877,TXV00000383,upper,to third reading,2009-05-18 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2914,TXV00000384,lower,final passage,2009-04-15 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 2919,TXV00000385,lower,final passage,2009-05-14 00:00:00,passage,135,0,15
+state,us,tx,81,lower,HB 2925,TXV00000386,lower,final passage,2009-05-06 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 2927,TXV00000387,lower,final passage,2009-05-05 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 2932,TXV00000388,lower,final passage,2009-04-28 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 2942,TXV00000389,lower,final passage,2009-05-15 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HB 2952,TXV00000390,lower,final passage,2009-05-04 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 2961,TXV00000391,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 2962,TXV00000392,lower,final passage,2009-05-15 00:00:00,passage,87,55,8
+state,us,tx,81,lower,HB 2972,TXV00000393,lower,final passage,2009-05-04 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 2985,TXV00000394,lower,final passage,2009-04-30 00:00:00,passage,132,0,18
+state,us,tx,81,lower,HB 2986,TXV00000395,lower,final passage,2009-05-13 00:00:00,passage,142,1,7
+state,us,tx,81,lower,HB 2989,TXV00000396,lower,final passage,2009-05-14 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 300,TXV00000397,lower,final passage,2009-05-11 00:00:00,passage,138,6,6
+state,us,tx,81,lower,HB 3004,TXV00000398,lower,final passage,2009-04-24 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 3005,TXV00000399,lower,final passage,2009-05-07 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 3006,TXV00000400,lower,final passage,2009-05-04 00:00:00,passage,131,8,11
+state,us,tx,81,lower,HB 3025,TXV00000401,lower,final passage,2009-04-28 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 3031,TXV00000402,upper,to third reading,2009-05-15 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3068,TXV00000403,lower,final passage,2009-04-30 00:00:00,passage,129,0,21
+state,us,tx,81,lower,HB 3076,TXV00000404,lower,final passage,2009-04-28 00:00:00,passage,113,35,2
+state,us,tx,81,lower,HB 3076,TXV00000405,lower,final passage,2009-04-29 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 3079,TXV00000406,lower,final passage,2009-05-08 00:00:00,passage,135,0,15
+state,us,tx,81,lower,HB 3089,TXV00000407,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3095,TXV00000408,lower,final passage,2009-05-08 00:00:00,passage,134,0,16
+state,us,tx,81,lower,HB 3097,TXV00000409,lower,final passage,2009-05-06 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 3103,TXV00000410,lower,final passage,2009-04-28 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 3128,TXV00000411,lower,final passage,2009-05-06 00:00:00,passage,144,2,4
+state,us,tx,81,lower,HB 313,TXV00000412,lower,final passage,2009-05-14 00:00:00,passage,141,1,8
+state,us,tx,81,lower,HB 3137,TXV00000413,lower,final passage,2009-05-06 00:00:00,passage,136,1,13
+state,us,tx,81,lower,HB 3144,TXV00000414,lower,final passage,2009-05-06 00:00:00,passage,136,0,14
+state,us,tx,81,lower,HB 3147,TXV00000415,lower,final passage,2009-04-28 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 3148,TXV00000416,lower,to engrossment,2009-05-05 00:00:00,other,76,45,29
+state,us,tx,81,lower,HB 3148,TXV00000417,lower,final passage,2009-05-06 00:00:00,passage,131,12,7
+state,us,tx,81,lower,HB 3173,TXV00000418,lower,final passage,2009-05-12 00:00:00,passage,142,6,2
+state,us,tx,81,lower,HB 319,TXV00000419,lower,final passage,2009-05-07 00:00:00,passage,140,1,9
+state,us,tx,81,lower,HB 3201,TXV00000420,lower,final passage,2009-05-15 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 3206,TXV00000421,lower,final passage,2009-05-15 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 3224,TXV00000422,lower,final passage,2009-05-12 00:00:00,passage,139,5,6
+state,us,tx,81,lower,HB 3226,TXV00000423,lower,final passage,2009-05-07 00:00:00,passage,125,16,9
+state,us,tx,81,lower,HB 3228,TXV00000424,lower,final passage,2009-05-04 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 3231,TXV00000425,lower,final passage,2009-04-28 00:00:00,passage,149,0,1
+state,us,tx,81,lower,HB 3232,TXV00000426,lower,final passage,2009-05-14 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 3255,TXV00000427,lower,final passage,2009-05-14 00:00:00,passage,139,4,7
+state,us,tx,81,lower,HB 3276,TXV00000428,lower,final passage,2009-05-07 00:00:00,passage,107,31,12
+state,us,tx,81,lower,HB 328,TXV00000429,upper,to third reading,2009-05-06 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 328,TXV00000430,lower,final passage,2009-04-08 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 3303,TXV00000431,upper,to third reading,2009-05-18 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3306,TXV00000432,upper,to third reading,2009-05-19 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3309,TXV00000433,lower,final passage,2009-04-24 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 3314,TXV00000434,lower,final passage,2009-05-06 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 3316,TXV00000435,lower,final passage,2009-05-11 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 3330,TXV00000436,upper,to third reading,2009-05-23 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3330,TXV00000437,lower,final passage,2009-04-30 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 3340,TXV00000438,upper,to third reading,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3389,TXV00000439,lower,final passage,2009-05-13 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 339,TXV00000440,lower,final passage,2009-05-06 00:00:00,passage,139,4,7
+state,us,tx,81,lower,HB 3391,TXV00000441,lower,final passage,2009-05-04 00:00:00,passage,137,0,13
+state,us,tx,81,lower,HB 3417,TXV00000442,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3417,TXV00000443,upper,to third reading,2009-05-26 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 3433,TXV00000444,lower,final passage,2009-05-08 00:00:00,passage,135,0,15
+state,us,tx,81,lower,HB 3438,TXV00000445,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3445,TXV00000446,lower,final passage,2009-05-15 00:00:00,passage,138,4,8
+state,us,tx,81,lower,HB 3452,TXV00000447,lower,final passage,2009-05-13 00:00:00,passage,145,1,4
+state,us,tx,81,lower,HB 3454,TXV00000448,lower,final passage,2009-04-30 00:00:00,passage,133,0,17
+state,us,tx,81,lower,HB 3456,TXV00000449,upper,to third reading,2009-05-05 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3461,TXV00000450,lower,final passage,2009-04-30 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 3477,TXV00000451,lower,final passage,2009-05-11 00:00:00,passage,85,56,9
+state,us,tx,81,lower,HB 3480,TXV00000452,lower,final passage,2009-05-14 00:00:00,passage,134,8,8
+state,us,tx,81,lower,HB 3481,TXV00000453,lower,final passage,2009-05-06 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 3496,TXV00000454,lower,final passage,2009-04-30 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 3499,TXV00000455,lower,final passage,2009-05-11 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 350,TXV00000456,lower,final passage,2009-03-31 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 3502,TXV00000457,lower,final passage,2009-05-06 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 3515,TXV00000458,lower,final passage,2009-04-28 00:00:00,passage,138,6,6
+state,us,tx,81,lower,HB 3543,TXV00000459,lower,final passage,2009-05-04 00:00:00,passage,131,0,19
+state,us,tx,81,lower,HB 3547,TXV00000460,upper,to third reading,2009-05-27 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3547,TXV00000461,lower,final passage,2009-05-06 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 3551,TXV00000462,lower,final passage,2009-05-13 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 3554,TXV00000463,upper,to third reading,2009-05-22 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 358,TXV00000464,lower,final passage,2009-05-15 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 3594,TXV00000465,lower,final passage,2009-05-14 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 3595,TXV00000466,lower,final passage,2009-04-28 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 3601,TXV00000467,lower,final passage,2009-05-14 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 3611,TXV00000468,lower,final passage,2009-04-28 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 3612,TXV00000469,lower,final passage,2009-04-28 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 3613,TXV00000470,lower,final passage,2009-04-28 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 3621,TXV00000471,lower,final passage,2009-05-11 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 3623,TXV00000472,lower,final passage,2009-05-13 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 3632,TXV00000473,lower,final passage,2009-04-28 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 3634,TXV00000474,lower,final passage,2009-05-11 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 3637,TXV00000475,lower,final passage,2009-05-06 00:00:00,passage,133,9,8
+state,us,tx,81,lower,HB 3646,TXV00000476,lower,final passage,2009-05-12 00:00:00,passage,144,2,4
+state,us,tx,81,lower,HB 3649,TXV00000477,lower,final passage,2009-05-06 00:00:00,passage,125,19,6
+state,us,tx,81,lower,HB 3650,TXV00000478,lower,final passage,2009-05-08 00:00:00,passage,103,24,23
+state,us,tx,81,lower,HB 3653,TXV00000479,lower,final passage,2009-05-12 00:00:00,passage,116,30,4
+state,us,tx,81,lower,HB 3654,TXV00000480,upper,to third reading,2009-05-25 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3661,TXV00000481,upper,to third reading,2009-05-12 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3661,TXV00000482,upper,to engrossment,2009-05-12 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3668,TXV00000483,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3670,TXV00000484,lower,final passage,2009-05-11 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 3671,TXV00000485,lower,final passage,2009-05-06 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 3672,TXV00000486,lower,final passage,2009-05-14 00:00:00,passage,138,1,11
+state,us,tx,81,lower,HB 3676,TXV00000487,lower,final passage,2009-05-15 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 3680,TXV00000488,lower,final passage,2009-05-13 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 3689,TXV00000489,lower,final passage,2009-05-04 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 3695,TXV00000490,lower,final passage,2009-05-11 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 3717,TXV00000491,lower,final passage,2009-05-06 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 3721,TXV00000492,lower,final passage,2009-04-30 00:00:00,passage,134,0,16
+state,us,tx,81,lower,HB 3737,TXV00000493,lower,final passage,2009-05-06 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 375,TXV00000494,lower,final passage,2009-04-07 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 3751,TXV00000495,lower,final passage,2009-05-04 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 3765,TXV00000496,upper,to third reading,2009-05-13 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3765,TXV00000497,lower,final passage,2009-04-29 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 3790,TXV00000498,lower,final passage,2009-05-14 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 3795,TXV00000499,lower,final passage,2009-05-06 00:00:00,passage,140,1,9
+state,us,tx,81,lower,HB 3827,TXV00000500,lower,final passage,2009-05-04 00:00:00,passage,142,1,7
+state,us,tx,81,lower,HB 3838,TXV00000501,lower,final passage,2009-05-04 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 3841,TXV00000502,lower,final passage,2009-04-29 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 3846,TXV00000503,lower,final passage,2009-05-13 00:00:00,passage,145,1,4
+state,us,tx,81,lower,HB 3854,TXV00000504,upper,to third reading,2009-05-25 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3857,TXV00000505,lower,final passage,2009-05-14 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 3859,TXV00000506,lower,final passage,2009-05-13 00:00:00,passage,94,51,5
+state,us,tx,81,lower,HB 3861,TXV00000507,upper,to third reading,2009-05-27 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 3864,TXV00000508,lower,final passage,2009-05-14 00:00:00,passage,136,0,14
+state,us,tx,81,lower,HB 3896,TXV00000509,lower,final passage,2009-05-12 00:00:00,passage,144,4,2
+state,us,tx,81,lower,HB 3907,TXV00000510,lower,final passage,2009-05-12 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 392,TXV00000511,lower,final passage,2009-04-24 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 394,TXV00000512,lower,final passage,2009-03-26 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 3945,TXV00000513,lower,final passage,2009-05-04 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 3951,TXV00000514,lower,final passage,2009-05-06 00:00:00,passage,109,36,5
+state,us,tx,81,lower,HB 3961,TXV00000515,lower,final passage,2009-04-28 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 3977,TXV00000516,lower,final passage,2009-05-07 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 3983,TXV00000517,lower,final passage,2009-05-06 00:00:00,passage,136,9,5
+state,us,tx,81,lower,HB 3989,TXV00000518,lower,final passage,2009-05-12 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 4002,TXV00000519,lower,final passage,2009-05-04 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 4006,TXV00000520,lower,final passage,2009-04-29 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 4009,TXV00000521,lower,final passage,2009-05-14 00:00:00,passage,133,0,17
+state,us,tx,81,lower,HB 4031,TXV00000522,lower,final passage,2009-04-28 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 4037,TXV00000523,lower,final passage,2009-05-11 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 4043,TXV00000524,lower,final passage,2009-05-04 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 405,TXV00000525,lower,final passage,2009-04-02 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 4054,TXV00000526,lower,final passage,2009-04-30 00:00:00,passage,131,0,19
+state,us,tx,81,lower,HB 406,TXV00000527,lower,final passage,2009-04-24 00:00:00,passage,136,0,14
+state,us,tx,81,lower,HB 4061,TXV00000528,lower,final passage,2009-05-13 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HB 4068,TXV00000529,lower,final passage,2009-05-06 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 409,TXV00000530,lower,final passage,2009-04-24 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 4091,TXV00000531,lower,final passage,2009-05-06 00:00:00,passage,81,46,23
+state,us,tx,81,lower,HB 4102,TXV00000532,lower,final passage,2009-04-30 00:00:00,passage,132,0,18
+state,us,tx,81,lower,HB 4110,TXV00000533,lower,final passage,2009-04-30 00:00:00,passage,93,37,20
+state,us,tx,81,lower,HB 4136,TXV00000534,lower,final passage,2009-05-04 00:00:00,passage,122,0,28
+state,us,tx,81,lower,HB 4139,TXV00000535,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 415,TXV00000536,upper,to third reading,2009-05-12 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 415,TXV00000537,lower,final passage,2009-04-24 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 4152,TXV00000538,lower,final passage,2009-04-30 00:00:00,passage,131,0,19
+state,us,tx,81,lower,HB 4154,TXV00000539,lower,final passage,2009-05-06 00:00:00,passage,90,44,16
+state,us,tx,81,lower,HB 4231,TXV00000540,lower,final passage,2009-04-29 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 4247,TXV00000541,lower,final passage,2009-05-04 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 4265,TXV00000542,lower,final passage,2009-05-06 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 4270,TXV00000543,lower,final passage,2009-05-08 00:00:00,passage,132,0,18
+state,us,tx,81,lower,HB 4293,TXV00000544,lower,final passage,2009-04-28 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 4294,TXV00000545,lower,final passage,2009-05-04 00:00:00,passage,129,0,21
+state,us,tx,81,lower,HB 4299,TXV00000546,lower,final passage,2009-05-14 00:00:00,passage,89,34,27
+state,us,tx,81,lower,HB 4300,TXV00000547,lower,final passage,2009-05-06 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 4302,TXV00000548,lower,final passage,2009-04-29 00:00:00,passage,130,13,7
+state,us,tx,81,lower,HB 431,TXV00000549,lower,final passage,2009-05-11 00:00:00,passage,118,26,6
+state,us,tx,81,lower,HB 4314,TXV00000550,upper,to third reading,2009-05-15 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4314,TXV00000551,upper,to third reading,2009-05-15 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 4314,TXV00000552,upper,to engrossment,2009-05-15 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4314,TXV00000553,upper,to third reading,2009-05-15 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 432,TXV00000554,lower,final passage,2009-04-22 00:00:00,passage,140,6,4
+state,us,tx,81,lower,HB 4328,TXV00000555,lower,final passage,2009-05-06 00:00:00,passage,123,21,6
+state,us,tx,81,lower,HB 4341,TXV00000556,lower,final passage,2009-05-06 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 4353,TXV00000557,lower,final passage,2009-04-30 00:00:00,passage,95,30,25
+state,us,tx,81,lower,HB 4360,TXV00000558,lower,final passage,2009-05-11 00:00:00,passage,128,12,10
+state,us,tx,81,lower,HB 4409,TXV00000559,lower,final passage,2009-05-06 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 4412,TXV00000560,upper,to third reading,2009-05-25 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4426,TXV00000561,lower,final passage,2009-05-12 00:00:00,passage,111,34,5
+state,us,tx,81,lower,HB 4435,TXV00000562,lower,final passage,2009-04-29 00:00:00,passage,100,40,10
+state,us,tx,81,lower,HB 4445,TXV00000563,upper,final passage,2009-05-25 00:00:00,passage,0,0,0
+state,us,tx,81,lower,HB 4451,TXV00000564,lower,final passage,2009-04-29 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 4471,TXV00000565,lower,final passage,2009-04-23 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 449,TXV00000566,lower,final passage,2009-04-24 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 4501,TXV00000567,upper,to third reading,2009-05-23 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4525,TXV00000568,lower,final passage,2009-05-07 00:00:00,passage,139,3,8
+state,us,tx,81,lower,HB 4529,TXV00000569,upper,to third reading,2009-05-23 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4529,TXV00000570,upper,to third reading,2009-05-23 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 4540,TXV00000571,upper,to third reading,2009-05-22 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4541,TXV00000572,upper,to third reading,2009-05-22 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4545,TXV00000573,lower,final passage,2009-05-06 00:00:00,passage,136,3,11
+state,us,tx,81,lower,HB 456,TXV00000574,lower,final passage,2009-05-08 00:00:00,passage,132,3,15
+state,us,tx,81,lower,HB 4577,TXV00000575,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4577,TXV00000576,lower,final passage,2009-04-28 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 4583,TXV00000577,lower,final passage,2009-05-15 00:00:00,passage,140,1,9
+state,us,tx,81,lower,HB 4586,TXV00000578,lower,final passage,2009-04-17 00:00:00,passage,143,4,3
+state,us,tx,81,lower,HB 459,TXV00000579,lower,final passage,2009-05-07 00:00:00,passage,85,47,18
+state,us,tx,81,lower,HB 459,TXV00000580,lower,final passage,2009-05-07 00:00:00,,85,47,18
+state,us,tx,81,lower,HB 4590,TXV00000581,lower,final passage,2009-04-30 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 461,TXV00000582,lower,final passage,2009-05-05 00:00:00,passage,131,13,6
+state,us,tx,81,lower,HB 464,TXV00000583,lower,final passage,2009-05-15 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 4661,TXV00000584,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 469,TXV00000585,lower,final passage,2009-05-05 00:00:00,passage,140,3,7
+state,us,tx,81,lower,HB 4704,TXV00000586,upper,to third reading,2009-05-27 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4704,TXV00000587,upper,to third reading,2009-05-27 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 4718,TXV00000588,upper,to third reading,2009-05-19 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4718,TXV00000589,upper,to third reading,2009-05-19 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 472,TXV00000590,upper,to third reading,2009-05-15 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 472,TXV00000591,upper,to third reading,2009-05-15 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 472,TXV00000592,lower,final passage,2009-05-06 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 473,TXV00000593,upper,to third reading,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4742,TXV00000594,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4745,TXV00000595,upper,to third reading,2009-05-25 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4765,TXV00000596,lower,to engrossment,2009-05-04 00:00:00,other,141,0,9
+state,us,tx,81,lower,HB 4765,TXV00000597,lower,final passage,2009-05-05 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HB 4767,TXV00000598,lower,final passage,2009-04-30 00:00:00,passage,133,0,17
+state,us,tx,81,lower,HB 4775,TXV00000599,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4785,TXV00000600,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4795,TXV00000601,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4795,TXV00000602,upper,to third reading,2009-05-26 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 4818,TXV00000603,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 4818,TXV00000604,upper,to third reading,2009-05-26 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 482,TXV00000605,lower,final passage,2009-04-21 00:00:00,passage,84,60,6
+state,us,tx,81,lower,HB 4829,TXV00000606,upper,to third reading,2009-05-27 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 483,TXV00000607,lower,final passage,2009-04-21 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 4833,TXV00000608,lower,final passage,2009-05-14 00:00:00,passage,132,0,18
+state,us,tx,81,lower,HB 489,TXV00000609,lower,final passage,2009-05-15 00:00:00,passage,92,48,10
+state,us,tx,81,lower,HB 492,TXV00000610,lower,final passage,2009-04-24 00:00:00,passage,119,15,16
+state,us,tx,81,lower,HB 497,TXV00000611,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 497,TXV00000612,lower,final passage,2009-04-30 00:00:00,passage,130,0,20
+state,us,tx,81,lower,HB 498,TXV00000613,lower,final passage,2009-05-15 00:00:00,passage,87,51,12
+state,us,tx,81,lower,HB 51,TXV00000614,lower,final passage,2009-04-24 00:00:00,passage,137,0,13
+state,us,tx,81,lower,HB 518,TXV00000615,lower,final passage,2009-05-15 00:00:00,passage,137,4,9
+state,us,tx,81,lower,HB 530,TXV00000616,lower,final passage,2009-04-24 00:00:00,passage,137,0,13
+state,us,tx,81,lower,HB 533,TXV00000617,lower,final passage,2009-04-24 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 534,TXV00000618,lower,final passage,2009-05-15 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 537,TXV00000619,lower,final passage,2009-05-11 00:00:00,passage,141,1,8
+state,us,tx,81,lower,HB 549,TXV00000620,upper,to third reading,2009-05-18 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 549,TXV00000621,lower,final passage,2009-04-24 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 55,TXV00000622,lower,final passage,2009-05-15 00:00:00,passage,106,32,12
+state,us,tx,81,lower,HB 551,TXV00000623,upper,to third reading,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 556,TXV00000624,lower,final passage,2009-05-08 00:00:00,passage,131,1,18
+state,us,tx,81,lower,HB 558,TXV00000625,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 559,TXV00000626,upper,to third reading,2009-05-19 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 58,TXV00000627,upper,to third reading,2009-05-25 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 583,TXV00000628,lower,final passage,2009-05-11 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 587,TXV00000629,upper,to third reading,2009-05-22 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 594,TXV00000630,lower,final passage,2009-04-17 00:00:00,passage,149,0,1
+state,us,tx,81,lower,HB 598,TXV00000631,lower,final passage,2009-04-21 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 605,TXV00000632,upper,to third reading,2009-05-22 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 608,TXV00000633,lower,final passage,2009-04-21 00:00:00,passage,139,5,6
+state,us,tx,81,lower,HB 609,TXV00000634,lower,final passage,2009-04-15 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 610,TXV00000635,lower,final passage,2009-04-30 00:00:00,passage,96,33,21
+state,us,tx,81,lower,HB 626,TXV00000636,lower,final passage,2009-05-07 00:00:00,passage,140,1,9
+state,us,tx,81,lower,HB 63,TXV00000637,lower,final passage,2009-04-24 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 636,TXV00000638,lower,final passage,2009-05-06 00:00:00,passage,93,49,8
+state,us,tx,81,lower,HB 643,TXV00000639,lower,final passage,2009-05-06 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HB 652,TXV00000640,upper,to third reading,2009-05-13 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 655,TXV00000641,lower,final passage,2009-04-24 00:00:00,passage,137,0,13
+state,us,tx,81,lower,HB 656,TXV00000642,lower,final passage,2009-04-21 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HB 662,TXV00000643,lower,final passage,2009-05-15 00:00:00,passage,94,45,11
+state,us,tx,81,lower,HB 666,TXV00000644,lower,final passage,2009-04-22 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 669,TXV00000645,lower,final passage,2009-04-24 00:00:00,passage,137,0,13
+state,us,tx,81,lower,HB 670,TXV00000646,lower,final passage,2009-04-02 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 671,TXV00000647,lower,final passage,2009-04-21 00:00:00,passage,140,1,9
+state,us,tx,81,lower,HB 673,TXV00000648,lower,final passage,2009-04-24 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HB 677,TXV00000649,lower,to engrossment,2009-04-27 00:00:00,other,84,54,12
+state,us,tx,81,lower,HB 677,TXV00000650,lower,final passage,2009-04-28 00:00:00,passage,107,36,7
+state,us,tx,81,lower,HB 681,TXV00000651,lower,final passage,2009-04-21 00:00:00,passage,95,50,5
+state,us,tx,81,lower,HB 692,TXV00000652,lower,final passage,2009-05-11 00:00:00,passage,143,1,6
+state,us,tx,81,lower,HB 693,TXV00000653,lower,final passage,2009-03-26 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 694,TXV00000654,upper,to third reading,2009-05-26 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 704,TXV00000655,lower,final passage,2009-04-24 00:00:00,passage,138,0,12
+state,us,tx,81,lower,HB 708,TXV00000656,lower,final passage,2009-05-15 00:00:00,passage,137,0,13
+state,us,tx,81,lower,HB 709,TXV00000657,lower,final passage,2009-04-15 00:00:00,passage,139,3,8
+state,us,tx,81,lower,HB 71,TXV00000658,lower,final passage,2009-03-31 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 72,TXV00000659,lower,final passage,2009-04-22 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 732,TXV00000660,lower,final passage,2009-05-15 00:00:00,passage,137,0,13
+state,us,tx,81,lower,HB 746,TXV00000661,lower,final passage,2009-05-12 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 764,TXV00000662,lower,final passage,2009-04-21 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HB 768,TXV00000663,upper,to third reading,2009-05-22 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 77,TXV00000664,lower,final passage,2009-04-22 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 770,TXV00000665,lower,final passage,2009-05-07 00:00:00,passage,141,1,8
+state,us,tx,81,lower,HB 772,TXV00000666,upper,to third reading,2009-05-15 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 772,TXV00000667,lower,final passage,2009-03-31 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 773,TXV00000668,upper,to third reading,2009-05-25 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 773,TXV00000669,lower,final passage,2009-03-31 00:00:00,passage,145,1,4
+state,us,tx,81,lower,HB 774,TXV00000670,lower,final passage,2009-04-28 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 782,TXV00000671,lower,final passage,2009-03-26 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HB 783,TXV00000672,lower,final passage,2009-04-22 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 8,TXV00000673,lower,final passage,2009-04-24 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HB 801,TXV00000674,lower,final passage,2009-05-15 00:00:00,passage,114,23,13
+state,us,tx,81,lower,HB 806,TXV00000675,lower,to engrossment,2009-04-01 00:00:00,other,98,37,15
+state,us,tx,81,lower,HB 806,TXV00000676,lower,final passage,2009-04-02 00:00:00,passage,105,35,10
+state,us,tx,81,lower,HB 807,TXV00000677,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 821,TXV00000678,lower,final passage,2009-05-14 00:00:00,passage,135,11,4
+state,us,tx,81,lower,HB 824,TXV00000679,lower,final passage,2009-04-02 00:00:00,passage,83,60,7
+state,us,tx,81,lower,HB 825,TXV00000680,lower,final passage,2009-04-21 00:00:00,passage,142,1,7
+state,us,tx,81,lower,HB 829,TXV00000681,upper,to third reading,2009-05-23 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 831,TXV00000682,lower,final passage,2009-05-15 00:00:00,passage,131,4,15
+state,us,tx,81,lower,HB 836,TXV00000683,lower,final passage,2009-05-15 00:00:00,passage,125,12,13
+state,us,tx,81,lower,HB 846,TXV00000684,upper,to third reading,2009-05-21 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 846,TXV00000685,upper,to third reading,2009-05-21 00:00:00,,0,0,0
+state,us,tx,81,lower,HB 853,TXV00000686,lower,final passage,2009-05-08 00:00:00,passage,131,0,19
+state,us,tx,81,lower,HB 871,TXV00000687,upper,to third reading,2009-05-27 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 873,TXV00000688,upper,to third reading,2009-04-17 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 873,TXV00000689,lower,final passage,2009-03-26 00:00:00,passage,139,6,5
+state,us,tx,81,lower,HB 875,TXV00000690,upper,to third reading,2009-05-11 00:00:00,other,0,0,0
+state,us,tx,81,lower,HB 882,TXV00000691,lower,final passage,2009-05-04 00:00:00,passage,130,10,10
+state,us,tx,81,lower,HB 887,TXV00000692,lower,final passage,2009-04-28 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HB 888,TXV00000693,lower,final passage,2009-04-24 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HB 923,TXV00000694,lower,final passage,2009-04-30 00:00:00,passage,129,0,21
+state,us,tx,81,lower,HB 960,TXV00000695,lower,final passage,2009-04-28 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HB 968,TXV00000696,lower,to engrossment,2009-03-25 00:00:00,other,147,1,2
+state,us,tx,81,lower,HB 968,TXV00000697,lower,final passage,2009-03-26 00:00:00,passage,146,1,3
+state,us,tx,81,lower,HB 972,TXV00000698,lower,final passage,2009-05-14 00:00:00,passage,72,56,22
+state,us,tx,81,lower,HB 978,TXV00000699,lower,final passage,2009-05-08 00:00:00,passage,83,44,23
+state,us,tx,81,lower,HB 987,TXV00000700,lower,final passage,2009-04-15 00:00:00,passage,146,1,3
+state,us,tx,81,lower,HB 999,TXV00000701,lower,final passage,2009-05-07 00:00:00,passage,77,64,9
+state,us,tx,81,lower,HCR 119,TXV00000702,lower,final passage,2009-05-19 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HCR 120,TXV00000703,lower,final passage,2009-05-19 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HCR 126,TXV00000704,lower,final passage,2009-05-20 00:00:00,passage,133,0,17
+state,us,tx,81,lower,HCR 139,TXV00000705,lower,final passage,2009-05-19 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HCR 152,TXV00000706,lower,final passage,2009-05-12 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HCR 16,TXV00000707,lower,final passage,2009-04-30 00:00:00,passage,132,1,17
+state,us,tx,81,lower,HCR 168,TXV00000708,lower,final passage,2009-05-19 00:00:00,passage,136,1,13
+state,us,tx,81,lower,HCR 181,TXV00000709,lower,final passage,2009-05-24 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HCR 183,TXV00000710,lower,final passage,2009-05-30 00:00:00,passage,134,5,11
+state,us,tx,81,lower,HCR 188,TXV00000711,lower,final passage,2009-05-24 00:00:00,passage,141,3,6
+state,us,tx,81,lower,HCR 220,TXV00000712,lower,final passage,2009-05-30 00:00:00,passage,98,36,16
+state,us,tx,81,lower,HCR 222,TXV00000713,lower,final passage,2009-05-30 00:00:00,passage,139,1,10
+state,us,tx,81,lower,HCR 237,TXV00000714,lower,final passage,2009-05-20 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HCR 252,TXV00000715,lower,final passage,2009-05-24 00:00:00,passage,118,17,15
+state,us,tx,81,lower,HCR 258,TXV00000716,lower,final passage,2009-05-25 00:00:00,passage,148,0,2
+state,us,tx,81,lower,HCR 280,TXV00000717,lower,final passage,2009-06-01 00:00:00,passage,142,0,7
+state,us,tx,81,lower,HCR 282,TXV00000718,lower,final passage,2009-06-01 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HCR 283,TXV00000719,lower,final passage,2009-06-01 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HCR 284,TXV00000720,lower,final passage,2009-06-01 00:00:00,passage,146,1,3
+state,us,tx,81,lower,HCR 285,TXV00000721,lower,final passage,2009-06-01 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HCR 286,TXV00000722,lower,final passage,2009-06-01 00:00:00,passage,135,0,15
+state,us,tx,81,lower,HCR 287,TXV00000723,lower,final passage,2009-06-01 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HCR 288,TXV00000724,lower,final passage,2009-06-01 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HCR 290,TXV00000725,lower,final passage,2009-06-01 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HCR 291,TXV00000726,lower,final passage,2009-06-01 00:00:00,passage,111,29,10
+state,us,tx,81,lower,HCR 292,TXV00000727,lower,final passage,2009-06-01 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HCR 293,TXV00000728,lower,final passage,2009-06-01 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HCR 32,TXV00000729,lower,final passage,2009-02-03 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HCR 50,TXV00000730,lower,final passage,2009-05-30 00:00:00,passage,99,36,15
+state,us,tx,81,lower,HCR 54,TXV00000731,lower,final passage,2009-05-19 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HCR 61,TXV00000732,lower,final passage,2009-05-19 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HJR 102,TXV00000733,lower,final passage,2009-05-11 00:00:00,passage,140,1,9
+state,us,tx,81,lower,HJR 112,TXV00000734,lower,to engrossment,2009-05-07 00:00:00,other,90,48,12
+state,us,tx,81,lower,HJR 127,TXV00000735,lower,final passage,2009-05-11 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HJR 128,TXV00000736,lower,final passage,2009-05-14 00:00:00,passage,142,1,7
+state,us,tx,81,lower,HJR 29,TXV00000737,lower,final passage,2009-04-01 00:00:00,passage,131,16,3
+state,us,tx,81,lower,HJR 36,TXV00000738,lower,final passage,2009-04-27 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HJR 39,TXV00000739,lower,final passage,2009-05-04 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HJR 58,TXV00000740,lower,final passage,2009-04-24 00:00:00,passage,137,0,13
+state,us,tx,81,lower,HJR 7,TXV00000741,lower,final passage,2009-05-13 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HJR 83,TXV00000742,lower,final passage,2009-05-11 00:00:00,passage,117,24,9
+state,us,tx,81,lower,HJR 85,TXV00000743,lower,final passage,2009-05-11 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HR 1,TXV00000744,lower,final passage,2009-02-03 00:00:00,passage,140,3,7
+state,us,tx,81,lower,HR 1591,TXV00000745,lower,final passage,2009-05-30 00:00:00,passage,136,0,14
+state,us,tx,81,lower,HR 2,TXV00000746,lower,final passage,2009-01-28 00:00:00,passage,147,1,2
+state,us,tx,81,lower,HR 2011,TXV00000747,lower,final passage,2009-05-24 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HR 2875,TXV00000748,lower,final passage,2009-05-29 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HR 2880,TXV00000749,lower,final passage,2009-05-30 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HR 2888,TXV00000750,lower,final passage,2009-05-31 00:00:00,passage,141,4,5
+state,us,tx,81,lower,HR 2891,TXV00000751,lower,final passage,2009-05-30 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HR 2900,TXV00000752,lower,final passage,2009-05-31 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HR 2911,TXV00000753,lower,final passage,2009-05-31 00:00:00,passage,140,0,10
+state,us,tx,81,lower,HR 2922,TXV00000754,lower,final passage,2009-05-31 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HR 2924,TXV00000755,lower,final passage,2009-05-31 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HR 2925,TXV00000756,lower,final passage,2009-05-31 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HR 2927,TXV00000757,lower,final passage,2009-05-31 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HR 2928,TXV00000758,lower,final passage,2009-05-31 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HR 2930,TXV00000759,lower,final passage,2009-05-31 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HR 2947,TXV00000760,lower,final passage,2009-05-31 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HR 2950,TXV00000761,lower,final passage,2009-05-31 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HR 2951,TXV00000762,lower,final passage,2009-05-31 00:00:00,passage,139,0,11
+state,us,tx,81,lower,HR 2959,TXV00000763,lower,final passage,2009-05-31 00:00:00,passage,89,49,12
+state,us,tx,81,lower,HR 2960,TXV00000764,lower,final passage,2009-05-31 00:00:00,passage,121,2,27
+state,us,tx,81,lower,HR 2961,TXV00000765,lower,final passage,2009-05-31 00:00:00,passage,95,47,8
+state,us,tx,81,lower,HR 2963,TXV00000766,lower,final passage,2009-05-31 00:00:00,passage,144,0,6
+state,us,tx,81,lower,HR 2967,TXV00000767,lower,final passage,2009-05-31 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HR 2968,TXV00000768,lower,final passage,2009-05-31 00:00:00,passage,142,0,8
+state,us,tx,81,lower,HR 2975,TXV00000769,lower,final passage,2009-05-31 00:00:00,passage,146,0,4
+state,us,tx,81,lower,HR 2992,TXV00000770,lower,final passage,2009-05-31 00:00:00,passage,145,0,5
+state,us,tx,81,lower,HR 2995,TXV00000771,lower,final passage,2009-05-31 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HR 3,TXV00000772,lower,final passage,2009-01-15 00:00:00,passage,128,11,11
+state,us,tx,81,lower,HR 3047,TXV00000773,lower,final passage,2009-05-31 00:00:00,passage,141,0,9
+state,us,tx,81,lower,HR 3060,TXV00000774,lower,final passage,2009-05-31 00:00:00,passage,143,0,7
+state,us,tx,81,lower,HR 3061,TXV00000775,lower,final passage,2009-05-31 00:00:00,passage,143,1,6
+state,us,tx,81,lower,HR 3062,TXV00000776,lower,final passage,2009-05-31 00:00:00,passage,147,0,3
+state,us,tx,81,lower,HR 798,TXV00000777,lower,final passage,2009-05-19 00:00:00,passage,141,1,8
+state,us,tx,81,upper,SB 1001,TXV00000778,lower,final passage,2009-05-20 00:00:00,passage,139,0,11
+state,us,tx,81,upper,SB 1003,TXV00000779,upper,to engrossment,2009-04-07 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1003,TXV00000780,lower,final passage,2009-05-19 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 1005,TXV00000781,lower,final passage,2009-05-13 00:00:00,passage,137,0,13
+state,us,tx,81,upper,SB 1009,TXV00000782,lower,final passage,2009-05-21 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 1011,TXV00000783,lower,final passage,2009-05-15 00:00:00,passage,137,1,12
+state,us,tx,81,upper,SB 1016,TXV00000784,lower,final passage,2009-05-21 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 1027,TXV00000785,lower,final passage,2009-05-20 00:00:00,passage,122,21,7
+state,us,tx,81,upper,SB 1033,TXV00000786,lower,final passage,2009-05-26 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 1034,TXV00000787,lower,final passage,2009-05-26 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 1039,TXV00000788,lower,final passage,2009-05-25 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 1048,TXV00000789,upper,to engrossment,2009-04-14 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1053,TXV00000790,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1054,TXV00000791,lower,final passage,2009-05-11 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1055,TXV00000792,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1056,TXV00000793,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 1057,TXV00000794,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1058,TXV00000795,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1071,TXV00000796,lower,final passage,2009-05-06 00:00:00,passage,138,0,12
+state,us,tx,81,upper,SB 1080,TXV00000797,lower,final passage,2009-05-26 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 1081,TXV00000798,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1082,TXV00000799,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1088,TXV00000800,upper,to engrossment,2009-05-06 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1091,TXV00000801,lower,final passage,2009-05-20 00:00:00,passage,132,6,12
+state,us,tx,81,upper,SB 1093,TXV00000802,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1095,TXV00000803,lower,final passage,2009-05-26 00:00:00,passage,133,4,13
+state,us,tx,81,upper,SB 1106,TXV00000804,upper,to engrossment,2009-04-23 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1107,TXV00000805,lower,final passage,2009-05-26 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 1134,TXV00000806,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1142,TXV00000807,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1143,TXV00000808,lower,to third reading,2009-05-24 00:00:00,other,123,0,27
+state,us,tx,81,upper,SB 1143,TXV00000809,lower,final passage,2009-05-26 00:00:00,passage,111,31,8
+state,us,tx,81,upper,SB 1145,TXV00000810,lower,final passage,2009-05-26 00:00:00,passage,147,0,3
+state,us,tx,81,upper,SB 1179,TXV00000811,upper,to engrossment,2009-04-22 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1182,TXV00000812,lower,final passage,2009-05-20 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1182,TXV00000813,lower,final passage,2009-05-20 00:00:00,,144,0,6
+state,us,tx,81,upper,SB 1188,TXV00000814,upper,to engrossment,2009-04-23 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1188,TXV00000815,lower,final passage,2009-05-18 00:00:00,passage,134,1,15
+state,us,tx,81,upper,SB 1206,TXV00000816,lower,final passage,2009-05-13 00:00:00,passage,140,1,9
+state,us,tx,81,upper,SB 1207,TXV00000817,lower,final passage,2009-05-26 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 1208,TXV00000818,upper,to engrossment,2009-04-08 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1208,TXV00000819,lower,final passage,2009-05-26 00:00:00,passage,136,0,14
+state,us,tx,81,upper,SB 1209,TXV00000820,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1211,TXV00000821,upper,to engrossment,2009-04-15 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1211,TXV00000822,upper,to engrossment,2009-04-15 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 1218,TXV00000823,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 1219,TXV00000824,lower,final passage,2009-05-20 00:00:00,passage,115,19,16
+state,us,tx,81,upper,SB 1223,TXV00000825,lower,final passage,2009-05-26 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 1224,TXV00000826,lower,final passage,2009-05-12 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 1235,TXV00000827,lower,final passage,2009-05-26 00:00:00,passage,94,53,3
+state,us,tx,81,upper,SB 1236,TXV00000828,lower,final passage,2009-05-20 00:00:00,passage,135,0,15
+state,us,tx,81,upper,SB 1237,TXV00000829,lower,to third reading,2009-05-11 00:00:00,other,92,45,13
+state,us,tx,81,upper,SB 1237,TXV00000830,lower,final passage,2009-05-12 00:00:00,passage,143,3,4
+state,us,tx,81,upper,SB 1240,TXV00000831,upper,to engrossment,2009-04-22 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1240,TXV00000832,upper,to engrossment,2009-04-22 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 1253,TXV00000833,lower,final passage,2009-05-06 00:00:00,passage,144,1,5
+state,us,tx,81,upper,SB 1259,TXV00000834,lower,final passage,2009-05-12 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 1271,TXV00000835,upper,to engrossment,2009-04-23 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1281,TXV00000836,upper,to engrossment,2009-04-16 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1290,TXV00000837,upper,to engrossment,2009-04-06 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1290,TXV00000838,lower,final passage,2009-05-26 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 1299,TXV00000839,upper,to engrossment,2009-04-23 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1299,TXV00000840,lower,final passage,2009-05-26 00:00:00,passage,134,9,7
+state,us,tx,81,upper,SB 1303,TXV00000841,upper,to engrossment,2009-04-21 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1325,TXV00000842,lower,final passage,2009-05-26 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 1328,TXV00000843,lower,final passage,2009-05-26 00:00:00,passage,140,0,10
+state,us,tx,81,upper,SB 1332,TXV00000844,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 1334,TXV00000845,upper,to engrossment,2009-04-21 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1334,TXV00000846,upper,to engrossment,2009-04-21 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 1337,TXV00000847,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1343,TXV00000848,upper,to engrossment,2009-05-04 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1344,TXV00000849,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 1354,TXV00000850,lower,final passage,2009-05-26 00:00:00,passage,131,14,5
+state,us,tx,81,upper,SB 1359,TXV00000851,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1367,TXV00000852,lower,final passage,2009-05-26 00:00:00,passage,141,2,7
+state,us,tx,81,upper,SB 1368,TXV00000853,lower,final passage,2009-05-26 00:00:00,passage,135,4,11
+state,us,tx,81,upper,SB 1371,TXV00000854,upper,to engrossment,2009-04-21 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1371,TXV00000855,lower,final passage,2009-05-06 00:00:00,passage,96,48,6
+state,us,tx,81,upper,SB 1373,TXV00000856,lower,final passage,2009-05-05 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1374,TXV00000857,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1377,TXV00000858,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1387,TXV00000859,lower,final passage,2009-05-18 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 1402,TXV00000860,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1403,TXV00000861,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1410,TXV00000862,upper,to engrossment,2009-04-07 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1410,TXV00000863,lower,final passage,2009-05-20 00:00:00,passage,136,8,6
+state,us,tx,81,upper,SB 1415,TXV00000864,lower,final passage,2009-05-14 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1432,TXV00000865,upper,to engrossment,2009-04-23 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1432,TXV00000866,upper,to engrossment,2009-04-23 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 1442,TXV00000867,lower,final passage,2009-05-04 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 1449,TXV00000868,lower,final passage,2009-05-20 00:00:00,passage,134,0,16
+state,us,tx,81,upper,SB 1474,TXV00000869,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1478,TXV00000870,lower,final passage,2009-05-26 00:00:00,passage,140,0,10
+state,us,tx,81,upper,SB 1483,TXV00000871,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1485,TXV00000872,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1490,TXV00000873,upper,to engrossment,2009-04-17 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1490,TXV00000874,upper,to engrossment,2009-04-17 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 1495,TXV00000875,lower,final passage,2009-05-07 00:00:00,passage,136,0,14
+state,us,tx,81,upper,SB 1506,TXV00000876,lower,final passage,2009-05-14 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 1514,TXV00000877,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1515,TXV00000878,lower,final passage,2009-05-20 00:00:00,passage,119,16,15
+state,us,tx,81,upper,SB 1522,TXV00000879,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1526,TXV00000880,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1540,TXV00000881,lower,final passage,2009-05-11 00:00:00,passage,147,0,3
+state,us,tx,81,upper,SB 1554,TXV00000882,upper,to engrossment,2009-04-22 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1557,TXV00000883,lower,final passage,2009-05-20 00:00:00,passage,140,0,10
+state,us,tx,81,upper,SB 1574,TXV00000884,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1575,TXV00000885,lower,final passage,2009-05-26 00:00:00,passage,118,0,32
+state,us,tx,81,upper,SB 1577,TXV00000886,upper,to engrossment,2009-04-20 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 158,TXV00000887,upper,to engrossment,2009-03-24 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1586,TXV00000888,lower,final passage,2009-05-26 00:00:00,passage,139,0,11
+state,us,tx,81,upper,SB 1612,TXV00000889,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1615,TXV00000890,upper,to engrossment,2009-04-30 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1617,TXV00000891,lower,final passage,2009-05-26 00:00:00,passage,138,0,12
+state,us,tx,81,upper,SB 1620,TXV00000892,lower,final passage,2009-05-26 00:00:00,passage,140,0,10
+state,us,tx,81,upper,SB 1633,TXV00000893,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 1646,TXV00000894,lower,final passage,2009-05-26 00:00:00,passage,139,0,11
+state,us,tx,81,upper,SB 1652,TXV00000895,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 1654,TXV00000896,upper,to engrossment,2009-04-08 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1655,TXV00000897,lower,final passage,2009-05-20 00:00:00,passage,140,0,10
+state,us,tx,81,upper,SB 1661,TXV00000898,lower,final passage,2009-05-14 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1668,TXV00000899,upper,to engrossment,2009-05-06 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1670,TXV00000900,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1672,TXV00000901,lower,final passage,2009-05-18 00:00:00,passage,136,0,14
+state,us,tx,81,upper,SB 1676,TXV00000902,lower,final passage,2009-05-26 00:00:00,passage,143,1,6
+state,us,tx,81,upper,SB 1681,TXV00000903,lower,final passage,2009-05-20 00:00:00,passage,139,0,11
+state,us,tx,81,upper,SB 1693,TXV00000904,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1699,TXV00000905,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1701,TXV00000906,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1707,TXV00000907,upper,to engrossment,2009-05-08 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1707,TXV00000908,upper,to engrossment,2009-05-08 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 1707,TXV00000909,upper,to engrossment,2009-05-08 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 1707,TXV00000910,upper,to third reading,2009-05-08 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1711,TXV00000911,lower,final passage,2009-05-06 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 1712,TXV00000912,lower,final passage,2009-05-26 00:00:00,passage,147,0,3
+state,us,tx,81,upper,SB 1715,TXV00000913,lower,final passage,2009-05-20 00:00:00,passage,114,22,14
+state,us,tx,81,upper,SB 1717,TXV00000914,upper,to engrossment,2009-04-27 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1717,TXV00000915,lower,final passage,2009-05-18 00:00:00,passage,89,52,9
+state,us,tx,81,upper,SB 1740,TXV00000916,upper,to engrossment,2009-04-28 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 175,TXV00000917,lower,final passage,2009-05-26 00:00:00,passage,123,20,7
+state,us,tx,81,upper,SB 1754,TXV00000918,upper,to engrossment,2009-04-24 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1754,TXV00000919,upper,to engrossment,2009-04-24 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 1754,TXV00000920,upper,to engrossment,2009-04-24 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 1760,TXV00000921,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 1764,TXV00000922,upper,to engrossment,2009-05-05 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1764,TXV00000923,upper,to engrossment,2009-05-05 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 1771,TXV00000924,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1777,TXV00000925,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1782,TXV00000926,lower,final passage,2009-05-26 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 1795,TXV00000927,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1806,TXV00000928,lower,final passage,2009-05-20 00:00:00,passage,141,1,8
+state,us,tx,81,upper,SB 1807,TXV00000929,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1811,TXV00000930,lower,final passage,2009-05-06 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1812,TXV00000931,lower,final passage,2009-05-26 00:00:00,passage,140,3,7
+state,us,tx,81,upper,SB 1813,TXV00000932,lower,final passage,2009-05-26 00:00:00,passage,145,1,4
+state,us,tx,81,upper,SB 1814,TXV00000933,lower,final passage,2009-05-20 00:00:00,passage,129,11,10
+state,us,tx,81,upper,SB 1826,TXV00000934,lower,final passage,2009-05-26 00:00:00,passage,147,0,3
+state,us,tx,81,upper,SB 1832,TXV00000935,lower,final passage,2009-05-12 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 1833,TXV00000936,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 1837,TXV00000937,upper,to engrossment,2009-04-24 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1838,TXV00000938,upper,to engrossment,2009-04-16 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1838,TXV00000939,lower,final passage,2009-05-08 00:00:00,passage,136,0,14
+state,us,tx,81,upper,SB 1844,TXV00000940,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1847,TXV00000941,lower,final passage,2009-05-20 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 1876,TXV00000942,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1878,TXV00000943,lower,final passage,2009-05-18 00:00:00,passage,89,51,10
+state,us,tx,81,upper,SB 1896,TXV00000944,lower,final passage,2009-05-26 00:00:00,passage,82,64,4
+state,us,tx,81,upper,SB 1903,TXV00000945,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1918,TXV00000946,lower,final passage,2009-05-13 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 1919,TXV00000947,lower,final passage,2009-05-12 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 1930,TXV00000948,lower,final passage,2009-05-26 00:00:00,passage,146,1,3
+state,us,tx,81,upper,SB 1940,TXV00000949,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 1941,TXV00000950,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1945,TXV00000951,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 1948,TXV00000952,lower,final passage,2009-05-26 00:00:00,passage,135,0,15
+state,us,tx,81,upper,SB 1967,TXV00000953,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1969,TXV00000954,lower,final passage,2009-05-11 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 1979,TXV00000955,lower,final passage,2009-05-25 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 1982,TXV00000956,lower,final passage,2009-05-26 00:00:00,passage,140,4,6
+state,us,tx,81,upper,SB 1988,TXV00000957,upper,to engrossment,2009-04-17 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1992,TXV00000958,upper,to engrossment,2009-04-21 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1992,TXV00000959,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 1997,TXV00000960,upper,to engrossment,2009-04-16 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 1997,TXV00000961,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 2007,TXV00000962,upper,to engrossment,2009-05-01 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2007,TXV00000963,upper,to engrossment,2009-05-01 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 202,TXV00000964,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 2028,TXV00000965,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 2038,TXV00000966,lower,final passage,2009-05-14 00:00:00,passage,147,0,3
+state,us,tx,81,upper,SB 2041,TXV00000967,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 2043,TXV00000968,lower,final passage,2009-05-05 00:00:00,passage,144,1,5
+state,us,tx,81,upper,SB 2047,TXV00000969,upper,to engrossment,2009-04-24 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2048,TXV00000970,upper,to engrossment,2009-04-30 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2048,TXV00000971,upper,to engrossment,2009-04-30 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 2048,TXV00000972,upper,to engrossment,2009-04-30 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 2048,TXV00000973,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 2058,TXV00000974,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 2067,TXV00000975,upper,to engrossment,2009-04-30 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2067,TXV00000976,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 2072,TXV00000977,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 2073,TXV00000978,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 2093,TXV00000979,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 2126,TXV00000980,lower,final passage,2009-05-11 00:00:00,passage,142,3,5
+state,us,tx,81,upper,SB 2162,TXV00000981,upper,to engrossment,2009-04-30 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2163,TXV00000982,lower,final passage,2009-05-06 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 2169,TXV00000983,lower,final passage,2009-05-26 00:00:00,passage,99,48,3
+state,us,tx,81,upper,SB 2177,TXV00000984,upper,to engrossment,2009-05-15 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2178,TXV00000985,lower,final passage,2009-05-26 00:00:00,passage,142,1,7
+state,us,tx,81,upper,SB 2182,TXV00000986,lower,final passage,2009-05-26 00:00:00,passage,80,64,6
+state,us,tx,81,upper,SB 2195,TXV00000987,upper,to engrossment,2009-04-21 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2197,TXV00000988,upper,to engrossment,2009-04-20 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2197,TXV00000989,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 2210,TXV00000990,upper,to engrossment,2009-04-22 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2217,TXV00000991,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 2225,TXV00000992,lower,final passage,2009-05-13 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 2228,TXV00000993,upper,to engrossment,2009-05-04 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2229,TXV00000994,upper,to engrossment,2009-04-22 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 223,TXV00000995,upper,to engrossment,2009-04-02 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 223,TXV00000996,lower,final passage,2009-05-19 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 2230,TXV00000997,upper,to engrossment,2009-04-24 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2244,TXV00000998,upper,to engrossment,2009-04-24 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2244,TXV00000999,lower,final passage,2009-05-26 00:00:00,passage,140,5,5
+state,us,tx,81,upper,SB 2283,TXV00001000,upper,to engrossment,2009-05-07 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 229,TXV00001001,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 2298,TXV00001002,lower,final passage,2009-05-12 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 2306,TXV00001003,lower,final passage,2009-05-11 00:00:00,passage,144,1,5
+state,us,tx,81,upper,SB 2312,TXV00001004,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 2314,TXV00001005,lower,final passage,2009-05-26 00:00:00,passage,147,0,3
+state,us,tx,81,upper,SB 2344,TXV00001006,lower,final passage,2009-05-26 00:00:00,passage,140,0,10
+state,us,tx,81,upper,SB 2406,TXV00001007,upper,to engrossment,2009-05-14 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 241,TXV00001008,upper,to engrossment,2009-04-08 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 241,TXV00001009,upper,to engrossment,2009-04-08 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 2410,TXV00001010,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 2412,TXV00001011,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 2424,TXV00001012,upper,to engrossment,2009-04-27 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2438,TXV00001013,upper,to engrossment,2009-05-06 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2438,TXV00001014,upper,to engrossment,2009-05-06 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 2438,TXV00001015,lower,final passage,2009-05-26 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 2442,TXV00001016,lower,final passage,2009-05-26 00:00:00,passage,141,2,7
+state,us,tx,81,upper,SB 2445,TXV00001017,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 2453,TXV00001018,lower,final passage,2009-05-26 00:00:00,passage,122,22,6
+state,us,tx,81,upper,SB 2454,TXV00001019,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 2456,TXV00001020,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 2460,TXV00001021,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 2462,TXV00001022,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 2463,TXV00001023,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 2464,TXV00001024,lower,final passage,2009-05-25 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 2465,TXV00001025,upper,to engrossment,2009-04-24 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2465,TXV00001026,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 2466,TXV00001027,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 2467,TXV00001028,lower,final passage,2009-05-26 00:00:00,passage,140,1,9
+state,us,tx,81,upper,SB 2476,TXV00001029,upper,to engrossment,2009-04-27 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2478,TXV00001030,lower,final passage,2009-05-25 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 2479,TXV00001031,upper,to engrossment,2009-04-28 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2479,TXV00001032,upper,to engrossment,2009-04-28 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 2479,TXV00001033,lower,final passage,2009-05-25 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 2480,TXV00001034,lower,final passage,2009-05-25 00:00:00,passage,139,0,11
+state,us,tx,81,upper,SB 2483,TXV00001035,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 2484,TXV00001036,upper,to engrossment,2009-05-01 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2485,TXV00001037,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 2486,TXV00001038,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 2495,TXV00001039,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 2496,TXV00001040,lower,final passage,2009-05-25 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 2501,TXV00001041,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 2503,TXV00001042,upper,to engrossment,2009-04-24 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2503,TXV00001043,upper,to engrossment,2009-04-24 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 2504,TXV00001044,upper,to engrossment,2009-04-24 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2504,TXV00001045,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 2506,TXV00001046,lower,final passage,2009-05-25 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 2507,TXV00001047,lower,final passage,2009-05-25 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 2509,TXV00001048,lower,final passage,2009-05-25 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 2510,TXV00001049,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 2511,TXV00001050,lower,final passage,2009-05-26 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 2514,TXV00001051,lower,final passage,2009-05-25 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 2515,TXV00001052,lower,final passage,2009-05-25 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 2517,TXV00001053,upper,to engrossment,2009-04-30 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2518,TXV00001054,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 2519,TXV00001055,lower,final passage,2009-05-26 00:00:00,passage,142,4,4
+state,us,tx,81,upper,SB 252,TXV00001056,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 2520,TXV00001057,upper,to engrossment,2009-05-01 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2520,TXV00001058,upper,to engrossment,2009-05-01 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 2520,TXV00001059,lower,final passage,2009-05-25 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 2521,TXV00001060,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 2522,TXV00001061,upper,to engrossment,2009-04-28 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2522,TXV00001062,upper,to engrossment,2009-04-28 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 2522,TXV00001063,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 2526,TXV00001064,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 2529,TXV00001065,lower,final passage,2009-05-25 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 2531,TXV00001066,lower,final passage,2009-05-25 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 2534,TXV00001067,lower,final passage,2009-05-26 00:00:00,passage,143,2,5
+state,us,tx,81,upper,SB 2536,TXV00001068,lower,final passage,2009-05-25 00:00:00,passage,140,0,10
+state,us,tx,81,upper,SB 254,TXV00001069,upper,to engrossment,2009-04-16 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 254,TXV00001070,lower,final passage,2009-05-14 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 2543,TXV00001071,upper,to engrossment,2009-05-12 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2543,TXV00001072,upper,to third reading,2009-05-12 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2552,TXV00001073,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 2558,TXV00001074,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 2559,TXV00001075,upper,to engrossment,2009-05-11 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2559,TXV00001076,upper,to third reading,2009-05-11 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2565,TXV00001077,upper,to engrossment,2009-05-11 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2566,TXV00001078,upper,to engrossment,2009-05-12 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2569,TXV00001079,upper,to engrossment,2009-05-11 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2570,TXV00001080,upper,to engrossment,2009-05-11 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2570,TXV00001081,upper,to third reading,2009-05-11 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2570,TXV00001082,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 2576,TXV00001083,upper,to engrossment,2009-05-15 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2579,TXV00001084,upper,to engrossment,2009-05-20 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2580,TXV00001085,upper,to engrossment,2009-05-14 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 2580,TXV00001086,lower,final passage,2009-05-26 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 279,TXV00001087,lower,final passage,2009-05-25 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 28,TXV00001088,lower,final passage,2009-05-19 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 281,TXV00001089,upper,to engrossment,2009-04-21 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 281,TXV00001090,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 282,TXV00001091,lower,final passage,2009-05-25 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 283,TXV00001092,lower,final passage,2009-05-21 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 291,TXV00001093,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 297,TXV00001094,lower,final passage,2009-04-08 00:00:00,passage,148,0,2
+state,us,tx,81,upper,SB 305,TXV00001095,lower,final passage,2009-05-25 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 313,TXV00001096,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 328,TXV00001097,lower,final passage,2009-05-19 00:00:00,passage,140,1,9
+state,us,tx,81,upper,SB 333,TXV00001098,lower,final passage,2009-05-20 00:00:00,passage,138,0,12
+state,us,tx,81,upper,SB 334,TXV00001099,lower,final passage,2009-05-25 00:00:00,passage,140,0,10
+state,us,tx,81,upper,SB 337,TXV00001100,upper,to engrossment,2009-04-15 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 341,TXV00001101,upper,to engrossment,2009-04-30 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 346,TXV00001102,lower,final passage,2009-04-24 00:00:00,passage,134,0,16
+state,us,tx,81,upper,SB 347,TXV00001103,lower,final passage,2009-04-28 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 348,TXV00001104,lower,final passage,2009-05-25 00:00:00,passage,140,0,10
+state,us,tx,81,upper,SB 359,TXV00001105,lower,final passage,2009-05-19 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 361,TXV00001106,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 37,TXV00001107,lower,final passage,2009-05-18 00:00:00,passage,128,14,8
+state,us,tx,81,upper,SB 375,TXV00001108,lower,final passage,2009-05-25 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 376,TXV00001109,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 379,TXV00001110,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 386,TXV00001111,upper,to engrossment,2009-04-06 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 39,TXV00001112,upper,to engrossment,2009-03-23 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 39,TXV00001113,lower,final passage,2009-05-19 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 395,TXV00001114,lower,final passage,2009-05-19 00:00:00,passage,81,61,8
+state,us,tx,81,upper,SB 405,TXV00001115,lower,final passage,2009-05-07 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 408,TXV00001116,lower,final passage,2009-05-20 00:00:00,passage,139,0,11
+state,us,tx,81,upper,SB 410,TXV00001117,lower,final passage,2009-05-25 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 413,TXV00001118,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 414,TXV00001119,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 415,TXV00001120,lower,final passage,2009-05-26 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 417,TXV00001121,lower,final passage,2009-05-25 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 42,TXV00001122,lower,final passage,2009-05-26 00:00:00,passage,123,20,7
+state,us,tx,81,upper,SB 45,TXV00001123,upper,to engrossment,2009-04-28 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 45,TXV00001124,upper,to engrossment,2009-04-28 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 45,TXV00001125,lower,final passage,2009-05-11 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 451,TXV00001126,lower,final passage,2009-05-20 00:00:00,passage,140,0,10
+state,us,tx,81,upper,SB 455,TXV00001127,lower,final passage,2009-05-25 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 472,TXV00001128,lower,to third reading,2009-05-19 00:00:00,other,79,61,10
+state,us,tx,81,upper,SB 472,TXV00001129,lower,final passage,2009-05-20 00:00:00,passage,89,54,7
+state,us,tx,81,upper,SB 473,TXV00001130,upper,to engrossment,2009-04-22 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 475,TXV00001131,upper,to engrossment,2009-04-20 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 476,TXV00001132,lower,final passage,2009-05-20 00:00:00,passage,137,0,13
+state,us,tx,81,upper,SB 482,TXV00001133,upper,to engrossment,2009-04-07 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 482,TXV00001134,lower,final passage,2009-04-28 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 490,TXV00001135,lower,final passage,2009-05-25 00:00:00,passage,138,0,12
+state,us,tx,81,upper,SB 495,TXV00001136,lower,final passage,2009-05-18 00:00:00,passage,137,0,13
+state,us,tx,81,upper,SB 504,TXV00001137,lower,final passage,2009-05-26 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 518,TXV00001138,lower,final passage,2009-05-20 00:00:00,passage,140,0,10
+state,us,tx,81,upper,SB 52,TXV00001139,upper,to engrossment,2009-03-18 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 522,TXV00001140,lower,final passage,2009-04-28 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 524,TXV00001141,lower,final passage,2009-05-25 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 526,TXV00001142,lower,final passage,2009-05-12 00:00:00,passage,138,0,12
+state,us,tx,81,upper,SB 527,TXV00001143,lower,final passage,2009-05-20 00:00:00,passage,138,0,12
+state,us,tx,81,upper,SB 530,TXV00001144,lower,final passage,2009-05-25 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 532,TXV00001145,upper,to engrossment,2009-03-26 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 532,TXV00001146,lower,final passage,2009-05-20 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 532,TXV00001147,lower,final passage,2009-05-21 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 538,TXV00001148,upper,to engrossment,2009-03-30 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 543,TXV00001149,lower,final passage,2009-05-06 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 546,TXV00001150,lower,final passage,2009-05-18 00:00:00,passage,97,45,8
+state,us,tx,81,upper,SB 547,TXV00001151,lower,final passage,2009-05-12 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 554,TXV00001152,lower,final passage,2009-05-20 00:00:00,passage,135,0,15
+state,us,tx,81,upper,SB 562,TXV00001153,lower,final passage,2009-05-08 00:00:00,passage,135,0,15
+state,us,tx,81,upper,SB 567,TXV00001154,upper,to engrossment,2009-04-08 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 572,TXV00001155,upper,to engrossment,2009-03-25 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 572,TXV00001156,lower,final passage,2009-05-19 00:00:00,passage,138,6,6
+state,us,tx,81,upper,SB 575,TXV00001157,lower,final passage,2009-05-25 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 576,TXV00001158,upper,to engrossment,2009-03-23 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 576,TXV00001159,lower,final passage,2009-05-26 00:00:00,passage,140,2,8
+state,us,tx,81,upper,SB 58,TXV00001160,lower,final passage,2009-05-11 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 584,TXV00001161,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 585,TXV00001162,lower,final passage,2009-05-25 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 587,TXV00001163,upper,to engrossment,2009-04-16 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 587,TXV00001164,upper,to engrossment,2009-04-16 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 587,TXV00001165,upper,to engrossment,2009-04-16 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 588,TXV00001166,lower,final passage,2009-05-25 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 595,TXV00001167,lower,final passage,2009-05-18 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 596,TXV00001168,lower,final passage,2009-05-25 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 598,TXV00001169,upper,to engrossment,2009-04-17 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 61,TXV00001170,lower,final passage,2009-05-11 00:00:00,passage,99,44,7
+state,us,tx,81,upper,SB 627,TXV00001171,lower,final passage,2009-05-20 00:00:00,passage,136,0,14
+state,us,tx,81,upper,SB 629,TXV00001172,lower,final passage,2009-05-13 00:00:00,passage,140,0,10
+state,us,tx,81,upper,SB 63,TXV00001173,lower,final passage,2009-05-14 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 633,TXV00001174,lower,final passage,2009-05-20 00:00:00,passage,135,0,15
+state,us,tx,81,upper,SB 636,TXV00001175,lower,final passage,2009-05-25 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 637,TXV00001176,lower,final passage,2009-05-25 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 638,TXV00001177,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 643,TXV00001178,lower,final passage,2009-05-19 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 650,TXV00001179,lower,final passage,2009-05-20 00:00:00,passage,139,0,11
+state,us,tx,81,upper,SB 654,TXV00001180,lower,final passage,2009-05-26 00:00:00,passage,138,7,5
+state,us,tx,81,upper,SB 660,TXV00001181,lower,final passage,2009-05-25 00:00:00,passage,141,1,8
+state,us,tx,81,upper,SB 662,TXV00001182,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 679,TXV00001183,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 68,TXV00001184,lower,final passage,2009-05-19 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 686,TXV00001185,lower,final passage,2009-05-20 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 687,TXV00001186,lower,final passage,2009-05-07 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 693,TXV00001187,lower,final passage,2009-05-26 00:00:00,passage,147,0,3
+state,us,tx,81,upper,SB 698,TXV00001188,lower,final passage,2009-05-26 00:00:00,passage,138,8,4
+state,us,tx,81,upper,SB 703,TXV00001189,lower,final passage,2009-05-26 00:00:00,passage,143,2,5
+state,us,tx,81,upper,SB 704,TXV00001190,lower,final passage,2009-05-20 00:00:00,passage,134,0,16
+state,us,tx,81,upper,SB 707,TXV00001191,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 711,TXV00001192,lower,final passage,2009-05-20 00:00:00,passage,134,0,16
+state,us,tx,81,upper,SB 712,TXV00001193,upper,to engrossment,2009-04-23 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 727,TXV00001194,lower,final passage,2009-05-12 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 731,TXV00001195,upper,to engrossment,2009-03-25 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 741,TXV00001196,lower,final passage,2009-04-28 00:00:00,passage,147,0,3
+state,us,tx,81,upper,SB 743,TXV00001197,lower,final passage,2009-05-20 00:00:00,passage,140,0,10
+state,us,tx,81,upper,SB 745,TXV00001198,upper,to engrossment,2009-03-24 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 745,TXV00001199,lower,final passage,2009-05-19 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 748,TXV00001200,lower,final passage,2009-05-26 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 749,TXV00001201,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 750,TXV00001202,upper,to engrossment,2009-04-30 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 755,TXV00001203,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 759,TXV00001204,upper,to engrossment,2009-03-19 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 759,TXV00001205,lower,final passage,2009-05-26 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 768,TXV00001206,lower,final passage,2009-05-26 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 769,TXV00001207,lower,final passage,2009-04-07 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 776,TXV00001208,lower,final passage,2009-05-20 00:00:00,passage,138,0,12
+state,us,tx,81,upper,SB 78,TXV00001209,lower,final passage,2009-05-19 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 79,TXV00001210,lower,final passage,2009-05-19 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 794,TXV00001211,upper,to engrossment,2009-04-08 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 794,TXV00001212,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 798,TXV00001213,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 80,TXV00001214,lower,final passage,2009-05-25 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 801,TXV00001215,upper,to engrossment,2009-04-30 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 801,TXV00001216,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 808,TXV00001217,lower,final passage,2009-05-26 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 812,TXV00001218,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 82,TXV00001219,upper,to engrossment,2009-04-02 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 82,TXV00001220,lower,final passage,2009-05-19 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 828,TXV00001221,lower,final passage,2009-05-07 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 833,TXV00001222,lower,final passage,2009-05-20 00:00:00,passage,137,0,13
+state,us,tx,81,upper,SB 835,TXV00001223,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 839,TXV00001224,lower,final passage,2009-05-20 00:00:00,passage,101,37,12
+state,us,tx,81,upper,SB 847,TXV00001225,upper,to engrossment,2009-03-31 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 847,TXV00001226,upper,to engrossment,2009-03-31 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 847,TXV00001227,lower,final passage,2009-05-20 00:00:00,passage,139,0,11
+state,us,tx,81,upper,SB 858,TXV00001228,lower,final passage,2009-05-12 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 860,TXV00001229,upper,to engrossment,2009-04-28 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 860,TXV00001230,lower,final passage,2009-05-25 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SB 865,TXV00001231,lower,final passage,2009-05-21 00:00:00,passage,138,0,12
+state,us,tx,81,upper,SB 872,TXV00001232,lower,to third reading,2009-05-04 00:00:00,other,141,0,9
+state,us,tx,81,upper,SB 872,TXV00001233,lower,final passage,2009-05-05 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 873,TXV00001234,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 880,TXV00001235,lower,final passage,2009-05-25 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 882,TXV00001236,lower,final passage,2009-05-26 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SB 891,TXV00001237,lower,final passage,2009-05-20 00:00:00,passage,113,25,12
+state,us,tx,81,upper,SB 892,TXV00001238,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 894,TXV00001239,upper,to engrossment,2009-04-23 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 894,TXV00001240,lower,final passage,2009-05-20 00:00:00,passage,137,0,13
+state,us,tx,81,upper,SB 90,TXV00001241,lower,final passage,2009-04-22 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 904,TXV00001242,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 909,TXV00001243,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 911,TXV00001244,lower,final passage,2009-05-26 00:00:00,passage,142,0,8
+state,us,tx,81,upper,SB 926,TXV00001245,lower,final passage,2009-05-26 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 927,TXV00001246,lower,final passage,2009-05-26 00:00:00,passage,133,7,10
+state,us,tx,81,upper,SB 93,TXV00001247,lower,to third reading,2009-05-18 00:00:00,other,81,50,19
+state,us,tx,81,upper,SB 93,TXV00001248,lower,final passage,2009-05-19 00:00:00,passage,141,2,7
+state,us,tx,81,upper,SB 935,TXV00001249,upper,to engrossment,2009-04-23 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 935,TXV00001250,lower,final passage,2009-05-12 00:00:00,passage,139,5,6
+state,us,tx,81,upper,SB 940,TXV00001251,lower,final passage,2009-05-26 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SB 947,TXV00001252,upper,to engrossment,2009-04-21 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 947,TXV00001253,upper,to engrossment,2009-04-21 00:00:00,,0,0,0
+state,us,tx,81,upper,SB 948,TXV00001254,lower,final passage,2009-04-21 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 95,TXV00001255,lower,final passage,2009-05-05 00:00:00,passage,140,5,5
+state,us,tx,81,upper,SB 956,TXV00001256,lower,final passage,2009-05-14 00:00:00,passage,108,35,7
+state,us,tx,81,upper,SB 958,TXV00001257,upper,to engrossment,2009-05-07 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 958,TXV00001258,lower,final passage,2009-05-26 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 963,TXV00001259,lower,final passage,2009-05-20 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SB 968,TXV00001260,lower,final passage,2009-05-20 00:00:00,passage,111,34,5
+state,us,tx,81,upper,SB 98,TXV00001261,lower,final passage,2009-05-15 00:00:00,passage,137,0,13
+state,us,tx,81,upper,SB 983,TXV00001262,lower,final passage,2009-05-05 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SB 985,TXV00001263,upper,to engrossment,2009-04-15 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 987,TXV00001264,upper,to engrossment,2009-03-18 00:00:00,other,0,0,0
+state,us,tx,81,upper,SB 994,TXV00001265,lower,final passage,2009-05-25 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SCR 10,TXV00001266,lower,final passage,2009-05-24 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SCR 11,TXV00001267,lower,final passage,2009-05-24 00:00:00,passage,147,0,3
+state,us,tx,81,upper,SCR 14,TXV00001268,lower,final passage,2009-02-11 00:00:00,passage,139,0,11
+state,us,tx,81,upper,SCR 16,TXV00001269,lower,final passage,2009-02-11 00:00:00,passage,133,0,17
+state,us,tx,81,upper,SCR 20,TXV00001270,lower,final passage,2009-02-18 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SCR 22,TXV00001271,lower,final passage,2009-05-24 00:00:00,passage,147,0,3
+state,us,tx,81,upper,SCR 32,TXV00001272,lower,final passage,2009-02-26 00:00:00,passage,139,0,11
+state,us,tx,81,upper,SCR 36,TXV00001273,lower,final passage,2009-03-04 00:00:00,passage,146,0,4
+state,us,tx,81,upper,SCR 38,TXV00001274,lower,final passage,2009-05-30 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SCR 5,TXV00001275,lower,final passage,2009-05-24 00:00:00,passage,145,0,5
+state,us,tx,81,upper,SCR 56,TXV00001276,lower,final passage,2009-04-09 00:00:00,passage,144,0,6
+state,us,tx,81,upper,SCR 59,TXV00001277,lower,final passage,2009-06-01 00:00:00,passage,117,20,13
+state,us,tx,81,upper,SCR 64,TXV00001278,lower,final passage,2009-05-24 00:00:00,passage,148,0,2
+state,us,tx,81,upper,SCR 67,TXV00001279,lower,final passage,2009-05-31 00:00:00,passage,138,0,12
+state,us,tx,81,upper,SCR 72,TXV00001280,lower,final passage,2009-06-01 00:00:00,passage,99,43,8
+state,us,tx,81,upper,SCR 73,TXV00001281,lower,final passage,2009-06-01 00:00:00,passage,140,1,9
+state,us,tx,81,upper,SCR 77,TXV00001282,lower,final passage,2009-05-30 00:00:00,passage,138,0,12
+state,us,tx,81,upper,SCR 81,TXV00001283,lower,final passage,2009-06-01 00:00:00,passage,143,0,7
+state,us,tx,81,upper,SCR 82,TXV00001284,lower,final passage,2009-06-01 00:00:00,passage,140,0,10
+state,us,tx,81,upper,SCR 84,TXV00001285,lower,final passage,2009-06-01 00:00:00,passage,141,0,9
+state,us,tx,81,upper,SCR 85,TXV00001286,lower,final passage,2009-06-01 00:00:00,passage,139,0,11
+state,us,tx,81,upper,SCR 86,TXV00001287,lower,final passage,2009-06-01 00:00:00,passage,142,0,8
+state,us,tx,82,lower,HB 1,TXV00001356,lower,to engrossment,2011-04-03 00:00:00,other,98,49,3
+state,us,tx,82,lower,HB 109,TXV00001323,lower,final passage,2011-04-05 00:00:00,passage,144,0,6
+state,us,tx,82,lower,HB 11,TXV00001347,lower,final passage,2011-04-08 00:00:00,passage,132,0,18
+state,us,tx,82,lower,HB 1201,TXV00001346,lower,final passage,2011-04-07 00:00:00,passage,141,0,9
+state,us,tx,82,lower,HB 125,TXV00001359,lower,to engrossment,2011-04-07 00:00:00,other,113,27,10
+state,us,tx,82,lower,HB 125,TXV00001349,lower,final passage,2011-04-08 00:00:00,passage,120,13,17
+state,us,tx,82,lower,HB 1300,TXV00001338,lower,final passage,2011-04-06 00:00:00,passage,142,0,8
+state,us,tx,82,lower,HB 1404,TXV00001319,lower,final passage,2011-03-31 00:00:00,passage,143,0,7
+state,us,tx,82,lower,HB 1405,TXV00001339,lower,final passage,2011-04-06 00:00:00,passage,143,0,7
+state,us,tx,82,lower,HB 15,TXV00001357,lower,to engrossment,2011-03-03 00:00:00,other,103,42,5
+state,us,tx,82,lower,HB 15,TXV00001307,lower,final passage,2011-03-07 00:00:00,passage,107,42,1
+state,us,tx,82,lower,HB 1732,TXV00001340,lower,final passage,2011-04-06 00:00:00,passage,139,0,11
+state,us,tx,82,lower,HB 175,TXV00001350,lower,final passage,2011-04-08 00:00:00,passage,133,1,16
+state,us,tx,82,lower,HB 2124,TXV00001341,lower,final passage,2011-04-06 00:00:00,passage,139,0,11
+state,us,tx,82,lower,HB 215,TXV00001314,lower,final passage,2011-03-31 00:00:00,passage,145,0,5
+state,us,tx,82,lower,HB 2154,TXV00001342,lower,final passage,2011-04-06 00:00:00,passage,142,1,7
+state,us,tx,82,lower,HB 218,TXV00001351,lower,final passage,2011-04-08 00:00:00,passage,123,11,16
+state,us,tx,82,lower,HB 243,TXV00001360,lower,to engrossment,2011-04-07 00:00:00,other,124,16,10
+state,us,tx,82,lower,HB 243,TXV00001352,lower,final passage,2011-04-08 00:00:00,passage,107,16,27
+state,us,tx,82,lower,HB 252,TXV00001324,lower,final passage,2011-04-05 00:00:00,passage,146,0,4
+state,us,tx,82,lower,HB 27,TXV00001348,lower,final passage,2011-04-08 00:00:00,passage,80,42,28
+state,us,tx,82,lower,HB 275,TXV00001361,lower,to engrossment,2011-03-31 00:00:00,other,142,2,6
+state,us,tx,82,lower,HB 275,TXV00001322,lower,final passage,2011-04-01 00:00:00,passage,147,1,2
+state,us,tx,82,lower,HB 314,TXV00001308,lower,final passage,2011-03-22 00:00:00,passage,149,0,1
+state,us,tx,82,lower,HB 336,TXV00001362,lower,to engrossment,2011-04-07 00:00:00,other,108,31,11
+state,us,tx,82,lower,HB 336,TXV00001353,lower,final passage,2011-04-08 00:00:00,passage,105,27,18
+state,us,tx,82,lower,HB 338,TXV00001363,lower,to engrossment,2011-03-30 00:00:00,other,109,33,8
+state,us,tx,82,lower,HB 338,TXV00001315,lower,final passage,2011-03-31 00:00:00,passage,129,14,7
+state,us,tx,82,lower,HB 341,TXV00001354,lower,final passage,2011-04-08 00:00:00,passage,134,0,16
+state,us,tx,82,lower,HB 371,TXV00001325,lower,final passage,2011-04-05 00:00:00,passage,143,2,5
+state,us,tx,82,lower,HB 4,TXV00001358,lower,to engrossment,2011-03-31 00:00:00,other,100,46,4
+state,us,tx,82,lower,HB 4,TXV00001320,lower,final passage,2011-04-01 00:00:00,passage,105,41,4
+state,us,tx,82,lower,HB 444,TXV00001328,lower,final passage,2011-04-06 00:00:00,passage,142,0,8
+state,us,tx,82,lower,HB 451,TXV00001309,lower,to engrossment,2011-03-23 00:00:00,other,122,21,7
+state,us,tx,82,lower,HB 451,TXV00001310,lower,final passage,2011-03-24 00:00:00,passage,132,17,1
+state,us,tx,82,lower,HB 500,TXV00001345,lower,final passage,2011-04-07 00:00:00,passage,138,5,7
+state,us,tx,82,lower,HB 563,TXV00001316,lower,final passage,2011-03-31 00:00:00,passage,138,5,7
+state,us,tx,82,lower,HB 571,TXV00001329,lower,final passage,2011-04-06 00:00:00,passage,139,5,6
+state,us,tx,82,lower,HB 6,TXV00001344,lower,final passage,2011-04-07 00:00:00,passage,144,0,6
+state,us,tx,82,lower,HB 610,TXV00001330,lower,final passage,2011-04-06 00:00:00,passage,144,0,6
+state,us,tx,82,lower,HB 612,TXV00001317,lower,final passage,2011-03-31 00:00:00,passage,142,0,8
+state,us,tx,82,lower,HB 613,TXV00001318,lower,final passage,2011-03-31 00:00:00,passage,142,0,8
+state,us,tx,82,lower,HB 645,TXV00001331,lower,final passage,2011-04-06 00:00:00,passage,144,0,6
+state,us,tx,82,lower,HB 675,TXV00001332,lower,final passage,2011-04-06 00:00:00,passage,117,25,8
+state,us,tx,82,lower,HB 690,TXV00001333,lower,final passage,2011-04-06 00:00:00,passage,141,0,9
+state,us,tx,82,lower,HB 71,TXV00001321,lower,final passage,2011-04-01 00:00:00,passage,132,13,5
+state,us,tx,82,lower,HB 716,TXV00001364,lower,to engrossment,2011-04-04 00:00:00,other,137,9,4
+state,us,tx,82,lower,HB 716,TXV00001326,lower,final passage,2011-04-05 00:00:00,passage,133,12,5
+state,us,tx,82,lower,HB 755,TXV00001334,lower,final passage,2011-04-06 00:00:00,passage,142,1,7
+state,us,tx,82,lower,HB 849,TXV00001335,lower,final passage,2011-04-06 00:00:00,passage,139,2,9
+state,us,tx,82,lower,HB 942,TXV00001336,lower,final passage,2011-04-06 00:00:00,passage,141,0,9
+state,us,tx,82,lower,HB 989,TXV00001337,lower,final passage,2011-04-06 00:00:00,passage,142,1,7
+state,us,tx,82,lower,HCR 58,TXV00001311,lower,final passage,2011-02-09 00:00:00,passage,143,0,7
+state,us,tx,82,lower,HCR 68,TXV00001327,lower,final passage,2011-04-05 00:00:00,passage,146,0,4
+state,us,tx,82,lower,HR 3,TXV00001312,lower,final passage,2011-01-13 00:00:00,passage,140,0,10
+state,us,tx,82,lower,HR 4,TXV00001313,lower,final passage,2011-01-24 00:00:00,passage,143,0,7
+state,us,tx,82,upper,SB 14,TXV00001355,lower,to third reading,2011-03-23 00:00:00,other,101,48,1
+state,us,tx,82,upper,SB 14,TXV00001301,lower,final passage,2011-03-24 00:00:00,passage,101,48,1
+state,us,tx,82,upper,SB 351,TXV00001343,lower,final passage,2011-04-07 00:00:00,passage,144,0,6
+state,us,tx,82,upper,SCR 12,TXV00001302,lower,final passage,2011-02-03 00:00:00,passage,140,0,10
+state,us,tx,82,upper,SCR 15,TXV00001303,lower,final passage,2011-02-14 00:00:00,passage,148,0,2
+state,us,tx,82,upper,SCR 6,TXV00001304,lower,final passage,2011-01-13 00:00:00,passage,139,0,11
+state,us,tx,82,upper,SCR 7,TXV00001305,lower,final passage,2011-01-20 00:00:00,passage,134,0,16
+state,us,tx,82,upper,SCR 8,TXV00001306,lower,final passage,2011-01-27 00:00:00,passage,135,0,15
