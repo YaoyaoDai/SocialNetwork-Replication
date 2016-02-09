@@ -5,18 +5,238 @@ date: "February 8, 2016"
 output: pdf_document
 ---
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+I first prepare and change the data sets into network objects following the author's replication code. I then plot the legislative cosponsorship network. I also visualize the party attributes with red representing republican and blue representing democrat. 
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+```{r, echo=FALSE, message=FALSE,warning=FALSE}
+rm(list=ls())
+options(scipen=4)
+library(statnet)
+library(foreign)
+library(arm)
+###data preparation
+legs<-read.csv("~/Documents/Replication/tx_legislators.csv")
+billvotes<-read.csv("~/Documents/Replication/tx_bill_votes.csv")
+cosp<-read.csv("~/Documents/Replication/tx_bill_sponsors.csv")
+rollcalls<-read.csv("~/Documents/Replication/tx_bill_legislator_votes.csv")
 
-```{r}
-summary(cars)
+###Subset cosp network to lower chamber 81st 
+unique.legs<-unique(cosp$leg_id)
+cosp2<-subset(cosp, cosp$chamber=="lower" & cosp$session==81)
+unique.bills<-unique(cosp2$bill_id)
+#print(length(unique.bills))
+
+###Generate blank Matrix
+matrix3<-matrix(0, length(unique.legs), length(unique.legs))
+row.names(matrix3)<-unique.legs
+colnames(matrix3)<-unique.legs
+
+###Fill in cross-chamber sponsor to author connections
+for(i in 1:length(unique.bills)){
+  cosp3<-subset(cosp2, cosp2$bill_id==unique.bills[i])	
+  author<-match(cosp3$leg_id[which(cosp3$type=="author")], unique.legs)	
+  sponsor<-match(cosp3$leg_id[which(cosp3$type=="sponsor")], unique.legs)	
+  matrix3[sponsor, author]<-matrix3[sponsor, author]+1
+  if(sum(cosp3$type=="sponsor")>1){print(unique.bills[i])}
+}
+#sum(matrix3>0)
+###Subset cosp network to upper chamber 81st 
+cosp2<-subset(cosp, cosp$chamber=="upper" & cosp$session==81)
+unique.bills<-unique(cosp2$bill_id)
+#print(length(unique.bills))
+
+###Fill in cross-chamber sponsor to author connections
+for(i in 1:length(unique.bills)){
+  cosp3<-subset(cosp2, cosp2$bill_id==unique.bills[i])	
+  author<-match(cosp3$leg_id[which(cosp3$type=="author")], unique.legs)	
+  sponsor<-match(cosp3$leg_id[which(cosp3$type=="sponsor")], unique.legs)	
+  matrix3[sponsor, author]<-matrix3[sponsor, author]+1
+  #if(sum(cosp3$type=="sponsor")>1){print(unique.bills[i])}
+}
+#sum(matrix3>0)
+
+########Add Party Vector
+Party<-rep(NA, nrow(matrix3))
+for(i in 1:length(Party)){
+  if(length(which(legs$leg_id==row.names(matrix3)[i]))>0){
+    Party[i]<-as.character(legs$party[which(legs$leg_id==row.names(matrix3)[i])])
+  }
+}
+
+missing<-which(Party!="Democratic" & Party!="Republican" | is.na(Party)==TRUE)
+missing2<-vector(mode="character", length=length(missing))
+for(i in 1:length(missing)){
+  missing2[i]<-as.character(cosp$name[which(cosp$leg_id==row.names(matrix3)[missing[i]])])[1]	
+}
+
+missing3<-rep("Republican", length=length(missing))
+missing3[2]<-"Democratic"
+missing3[3]<-"Democratic"
+missing3[4]<-"Democratic"
+missing3[6]<-"Democratic"
+missing3[7]<-"Democratic"
+missing3[8]<-"Democratic"
+missing3[9]<-"Democratic"
+missing3[10]<-"Democratic"
+missing3[12]<-"Democratic"
+missing3[14]<-"Democratic"
+missing3[15]<-"Democratic"
+missing3[20]<-"Democratic"
+missing3[21]<-"Democratic"
+missing3[24]<-"Democratic"
+missing3[27]<-"Democratic"
+missing3[28]<-"Democratic"
+missing3[29]<-"Democratic"
+missing3[30]<-"Democratic"
+missing3[31]<-"Democratic"
+missing3[32]<-"Democratic"
+missing3[37]<-"Democratic"
+missing3[38]<-"Democratic"
+missing3[39]<-"Democratic"
+missing3[35]<-"Democratic"
+missing3[34]<-"Democratic"
+missing3[40]<-"Democratic"
+missing3[41]<-"Democratic"
+missing3[42]<-"Democratic"
+missing3[43]<-"Democratic"
+missing3[44]<-"Democratic"
+missing3[45]<-"Democratic"
+missing3[46]<-"Democratic"
+missing3[47]<-"Democratic"
+
+#Party
+for(i in 1:length(missing3)){
+  Party[missing[i]]<-missing3[i]	
+}
+#Party
+Party<-ifelse(Party=="Republican", 0, 1)
+
+
+########Add Leadership Vector
+Leadership<-rep(NA, nrow(matrix3))
+for(i in 1:length(Leadership)){
+  if(length(which(legs$leg_id==row.names(matrix3)[i]))>0){
+    Leadership[i]<-as.character(legs$leadership[which(legs$leg_id==row.names(matrix3)[i])])
+  }
+}
+Leadership<-ifelse(is.na(Leadership)==FALSE, as.numeric(Leadership), 0)
+
+########Add Appropriations Vector
+Appropriations<-rep(0, nrow(matrix3))
+for(i in 1:length(Appropriations)){
+  if(length(which(legs$leg_id==row.names(matrix3)[i]))>0){
+    Appropriations[i]<-as.character(legs$Appropriations[which(legs$leg_id==row.names(matrix3)[i])])
+  }
+}
+Appropriations<-as.numeric(Appropriations)
+
+########Add Chamber Vector
+Chamber<-rep(NA, nrow(matrix3))
+for(i in 1:length(Appropriations)){
+  if(length(which(legs$leg_id==row.names(matrix3)[i]))>0){
+    Chamber[i]<-as.character(legs$chamber[which(legs$leg_id==row.names(matrix3)[i])])
+  }
+}
+Chamber2<-ifelse(Chamber=="upper", 1, 0)
+Chamber2[37]<-0
+Chamber2[174]<-0
+
+############Clear Matrix of within-chamber connections
+ss<-which(Chamber2==1)
+rr<-which(Chamber2==0)
+
+#sum(matrix3>0)
+matrix3[ss,ss]<-0
+matrix3[rr,rr]<-0
+#sum(matrix3>0)
+
+########Add Rules Vector
+Rules<-rep(0, nrow(matrix3))
+for(i in 1:length(Rules)){
+  if(length(which(legs$leg_id==row.names(matrix3)[i]))>0){
+    Rules[i]<-as.character(legs$Rules[which(legs$leg_id==row.names(matrix3)[i])])
+  }
+}
+Rules<-as.numeric(Rules)
+
+######Rename Legislators from IDs to Names
+leg.names<-vector(mode="character", length=length(Party))
+for(i in 1:length(leg.names)){
+  leg.names[i]<-as.character(cosp$name[which(cosp$leg_id==row.names(matrix3)[i])[1]])	
+}
+
+####Add Joint Committees
+Joint.Comms<-numeric(length=nrow(matrix3))
+for(i in 1:length(Joint.Comms)){
+  if(length(which(legs$leg_id==row.names(matrix3)[i]))>0){	
+    if(legs$Aging[which(legs$leg_id==row.names(matrix3)[i])]==1){Joint.Comms[i]<-1}
+    if(legs$Criminal.Commitments[which(legs$leg_id==row.names(matrix3)[i])]==1){Joint.Comms[i]<-2}
+    if(legs$Dyslexia[which(legs$leg_id==row.names(matrix3)[i])]==1){Joint.Comms[i]<-3}
+    if(legs$Environmental.Flows[which(legs$leg_id==row.names(matrix3)[i])]==1){Joint.Comms[i]<-4}
+    if(legs$Bexar[which(legs$leg_id==row.names(matrix3)[i])]==1){Joint.Comms[i]<-5}
+    if(legs$Criminal.Justice[which(legs$leg_id==row.names(matrix3)[i])]==1){Joint.Comms[i]<-6}
+    if(legs$Aquifer[which(legs$leg_id==row.names(matrix3)[i])]==1){Joint.Comms[i]<-7}
+    if(legs$HHS[which(legs$leg_id==row.names(matrix3)[i])]==1){Joint.Comms[i]<-8}
+    if(legs$Windstorm[which(legs$leg_id==row.names(matrix3)[i])]==1){Joint.Comms[i]<-9}
+    if(legs$Finance.Weights[which(legs$leg_id==row.names(matrix3)[i])]==1){Joint.Comms[i]<-10}
+  }		
+  #print(i)
+}
 ```
 
-You can also embed plots, for example:
 
-```{r, echo=FALSE}
-plot(cars)
+
+```{r, echo=FALSE, warning=FALSE}
+###Set Network
+Network<-network(matrix3)
+
+###Add Attributes
+set.vertex.attribute(Network, "Party", Party)
+set.vertex.attribute(Network, "names", leg.names)
+set.vertex.attribute(Network, "leadership", Leadership)
+set.vertex.attribute(Network, "Rules", Rules)
+set.vertex.attribute(Network, "Appropriations", Appropriations)
+set.vertex.attribute(Network, "Chamber", Chamber2)
+#set.vertex.attribute(Network, "SenDist", SenDist)
+set.vertex.attribute(Network, "JointComms", Joint.Comms)
+
+### plot
+library(sna)
+party_color<-c("red","blue")
+vert.cols <- party_color[Party+1]
+plot(Network,vertex.cex=1,edge.col=rgb(150,150,150,50,maxColorValue=255),vertex.col=vert.cols,main="Network of legislative cosponsorship")
+legend("right",legend=c("Repulican","Democrat"), pch=19,col=c("Red","Blue"),cex=0.8,bty="n")
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+There are many isolates in the plot, which shrink the size of the network among connected legislators. So I removed all the isolates and plot only connected legislators:
+
+```{r echo=FALSE}
+#####Drop Isolates from the data
+zz<-which(degree(Network)==0)
+matTX<-matrix3[-zz,-zz]
+PartyTX<-Party[-zz]
+leg.namesTX<-leg.names[-zz]
+LeadershipTX<-Leadership[-zz]
+RulesTX<-Rules[-zz]
+AppropriationsTX<-Appropriations[-zz]
+ChamberTX<-Chamber2[-zz]
+#SenDistTX<-SenDist[-zz]
+#dist.matTX<-dist.mat2[-zz,-zz]
+Joint.CommsTX<-Joint.Comms[-zz]
+TXid<-rep(1, nrow(matTX))
+
+###Re-designate network
+Network2<-network(matTX)
+set.vertex.attribute(Network2, "Party", PartyTX)
+set.vertex.attribute(Network2, "names", leg.namesTX)
+set.vertex.attribute(Network2, "leadership", LeadershipTX)
+set.vertex.attribute(Network2, "Appropriations", AppropriationsTX)
+set.vertex.attribute(Network2, "Chamber", ChamberTX)
+set.vertex.attribute(Network2, "JointComms", Joint.CommsTX)
+
+###
+vert.colsTX<-party_color[PartyTX+1]
+plot(Network2,vertex.cex=1,edge.col=rgb(150,150,150,50,maxColorValue=255),vertex.col=vert.colsTX,main="Network of Legislative Cosponsorship without Isolates")
+legend("right",legend=c("Repulican","Democrat"), pch=19,col=c("Red","Blue"),cex=0.8,bty="n")
+```
+
+Github link with data and Rmarkdown code: https://github.com/YaoyaoDai/SocialNetwork-Replication
