@@ -231,11 +231,11 @@ nind <- ind/max(ind)
 plot(LeadershipTX,ind)
 
 pdf("Degree.pdf")
-plot(density(ind),,xlab="",main="Density of In-Degree Centrality")
+plot(density(ind),xlab="",main="Density of In-Degree Centrality")
 dev.off()
 
 pdf("RepCentrality.pdf")
-plot(Network2,vertex.cex=1.5*nind,displaylabels=T,label=get.vertex.attribute(Network2,"leadership"),label.pos=5,edge.col=rgb(150,150,150,50,maxColorValue=255),vertex.col=vert.colsTX,main="Cross Chamber Sponsorship in Texax")
+plot(Network2,vertex.cex=1.5*nind,displaylabels=T,label=get.vertex.attribute(Network2,"leadership"),label.pos=5,edge.col=rgb(150,150,150,50,maxColorValue=255),vertex.col=vert.colsTX,main="Cross Chamber Sponsorship in Texas")
 dev.off()
 ######Reciprocity#####
 ##General
@@ -304,9 +304,9 @@ coefs1<-coef(mod.exTX)
 coefs2<-coefs1
 coefs2[1]<-0
 coefs3<-coefs1
-coefs3[3:4]<-0
+coefs3[7:8]<-0
 coefs4<-coefs1
-coefs4[7:9]<-0
+coefs4[3:5]<-0
 
 for(i in 1:sims){
   sim.ex<-network(simulate(mod.exTX, coef=coefs1))

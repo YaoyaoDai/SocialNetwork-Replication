@@ -357,10 +357,10 @@ TXm6<-m6
 ########Build Oklahoma Network##################
 
 ###Load the First Set of Data
-legs<-read.csv("~/Dropbox/Texas Project/OK/ok_legislators.csv")
-billvotes<-read.csv("~/Dropbox/Texas Project/OK/ok_bill_votes.csv")
-cosp<-read.csv("~/Dropbox/Texas Project/OK/ok_bill_sponsors.csv")
-rollcalls<-read.csv("~/Dropbox/Texas Project/OK/ok_bill_legislator_votes.csv")
+legs<-read.csv("~/Documents/Replication/ok_legislators.csv")
+billvotes<-read.csv("~/Documents/Replication/ok_bill_votes.csv")
+cosp<-read.csv("~/Documents/Replication/ok_bill_sponsors.csv")
+rollcalls<-read.csv("~/Documents/Replication/ok_bill_legislator_votes.csv")
 
 ###Subset cosp network to lower chamber 81st 
 unique.legs<-unique(cosp$leg_id)
@@ -558,6 +558,7 @@ OKid<-rep(3, nrow(matOK))
 ###########Model
 set.seed(111)
 summary(mod.exOK<-ergm(Network~edges+nodematch("Chamber")+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+mutual+mutual(same="Party", diff=TRUE)+nodematch("JointComms")+edgecov(dist.mat2)+istar(2), control=control.ergm(MCMC.samplesize=50000, MCMLE.maxit=50, MCMC.burnin=75000, MCMC.interval=1000)))
+summary(mod.exOK<-ergm(Network~edges+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+mutual+mutual(same="Party", diff=TRUE)+nodematch("JointComms")+istar(2), control=control.ergm(MCMC.samplesize=50000, MCMLE.maxit=50, MCMC.burnin=75000, MCMC.interval=1000)))
 
 dput(mod.exOK, file="OklahomaResults2.txt")
 
