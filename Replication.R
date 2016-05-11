@@ -1,12 +1,10 @@
 rm(list=ls())
 options(scipen=4)
-
-install.packages("stargazer")
 library(stargazer)
-
 library(statnet)
 library(foreign)
 library(arm)
+
 setwd("~/Documents/Penn State 2016Spring/PLSC 597 E")
 ###data preparation
 legs<-read.csv("~/Documents/Replication/tx_legislators.csv")
@@ -21,9 +19,9 @@ unique.bills<-unique(cosp2$bill_id)
 #print(length(unique.bills))
 
 ###Generate blank Matrix
-matrix3<-matrix(0, length(unique.legs), length(unique.legs))
-row.names(matrix3)<-unique.legs
-colnames(matrix3)<-unique.legs
+matrix4<-matrix3<-matrix(0, length(unique.legs), length(unique.legs))
+row.names(matrix4)<-row.names(matrix3)<-unique.legs
+row.names(matrix4)<-colnames(matrix3)<-unique.legs
 
 ###Fill in cross-chamber sponsor to author connections
 for(i in 1:length(unique.bills)){
@@ -33,11 +31,18 @@ for(i in 1:length(unique.bills)){
   matrix3[sponsor, author]<-matrix3[sponsor, author]+1
   if(sum(cosp3$type=="sponsor")>1){print(unique.bills[i])}
 }
-sum(matrix3>0)
+
+for(i in 1:length(unique.bills)){
+  cosp3<-subset(cosp2, cosp2$bill_id==unique.bills[i])	
+  author<-match(cosp3$leg_id[which(cosp3$type=="author")], unique.legs)	
+  sponsor<-match(cosp3$leg_id[which(cosp3$type=="sponsor" | cosp3$type=="cosponsor" | cosp3$type=="coauthor")], unique.legs)
+  matrix4[sponsor, author]<-matrix4[sponsor, author]+1
+  if(sum(cosp3$type=="sponsor")>1){print(unique.bills[i])}
+}
+
 ###Subset cosp network to upper chamber 81st 
 cosp2<-subset(cosp, cosp$chamber=="upper" & cosp$session==81)
 unique.bills<-unique(cosp2$bill_id)
-print(length(unique.bills))
 
 ###Fill in cross-chamber sponsor to author connections
 for(i in 1:length(unique.bills)){
@@ -47,7 +52,15 @@ for(i in 1:length(unique.bills)){
   matrix3[sponsor, author]<-matrix3[sponsor, author]+1
   #if(sum(cosp3$type=="sponsor")>1){print(unique.bills[i])}
 }
-sum(matrix3>0)
+
+for(i in 1:length(unique.bills)){
+  cosp3<-subset(cosp2, cosp2$bill_id==unique.bills[i])	
+  author<-match(cosp3$leg_id[which(cosp3$type=="author")], unique.legs)	
+  sponsor<-match(cosp3$leg_id[which(cosp3$type=="sponsor"| cosp3$type=="cosponsor" | cosp3$type=="coauthor")], unique.legs)	
+  matrix4[sponsor, author]<-matrix4[sponsor, author]+1
+  #if(sum(cosp3$type=="sponsor")>1){print(unique.bills[i])}
+}
+
 
 ########Add Party Vector
 Party<-rep(NA, nrow(matrix3))
@@ -98,11 +111,10 @@ missing3[45]<-"Democratic"
 missing3[46]<-"Democratic"
 missing3[47]<-"Democratic"
 
-Party
 for(i in 1:length(missing3)){
   Party[missing[i]]<-missing3[i]	
 }
-Party
+
 Party<-ifelse(Party=="Republican", 0, 1)
 
 ########Add Leadership Vector
@@ -142,6 +154,8 @@ sum(matrix3>0)
 matrix3[ss,ss]<-0
 matrix3[rr,rr]<-0
 sum(matrix3>0)
+#matrix4[ss,ss]<-0
+#matrix4[rr,rr]<-0
 
 ########Add Rules Vector
 Rules<-rep(0, nrow(matrix3))
@@ -158,6 +172,10 @@ for(i in 1:length(leg.names)){
   leg.names[i]<-as.character(cosp$name[which(cosp$leg_id==row.names(matrix3)[i])[1]])	
 }
 
+leg.names<-vector(mode="character", length=length(Party))
+for(i in 1:length(leg.names)){
+  leg.names[i]<-as.character(cosp$name[which(cosp$leg_id==row.names(matrix4)[i])[1]])	
+}
 ####Add Joint Committees
 Joint.Comms<-numeric(length=nrow(matrix3))
 for(i in 1:length(Joint.Comms)){
@@ -179,6 +197,10 @@ for(i in 1:length(Joint.Comms)){
 
 ###Set Network
 Network<-network(matrix3)
+Network.w<-network(matrix3,ignore.eval=FALSE,names.eval='value')
+Network.all<-network(matrix4)
+Network.wall<-network(matrix4,ignore.eval=FALSE,names.eval='value')
+
 
 ###Add Attributes
 set.vertex.attribute(Network, "Party", Party)
@@ -187,8 +209,31 @@ set.vertex.attribute(Network, "leadership", Leadership)
 set.vertex.attribute(Network, "Rules", Rules)
 set.vertex.attribute(Network, "Appropriations", Appropriations)
 set.vertex.attribute(Network, "Chamber", Chamber2)
-#set.vertex.attribute(Network, "SenDist", SenDist)
 set.vertex.attribute(Network, "JointComms", Joint.Comms)
+
+set.vertex.attribute(Network.w, "Party", Party)
+set.vertex.attribute(Network.w, "names", leg.names)
+set.vertex.attribute(Network.w, "leadership", Leadership)
+set.vertex.attribute(Network.w, "Rules", Rules)
+set.vertex.attribute(Network.w, "Appropriations", Appropriations)
+set.vertex.attribute(Network.w, "Chamber", Chamber2)
+set.vertex.attribute(Network.w, "JointComms", Joint.Comms)
+
+set.vertex.attribute(Network.all, "Party", Party)
+set.vertex.attribute(Network.all, "names", leg.names)
+set.vertex.attribute(Network.all, "leadership", Leadership)
+set.vertex.attribute(Network.all, "Rules", Rules)
+set.vertex.attribute(Network.all, "Appropriations", Appropriations)
+set.vertex.attribute(Network.all, "Chamber", Chamber2)
+set.vertex.attribute(Network.all, "JointComms", Joint.Comms)
+
+set.vertex.attribute(Network.wall, "Party", Party)
+set.vertex.attribute(Network.wall, "names", leg.names)
+set.vertex.attribute(Network.wall, "leadership", Leadership)
+set.vertex.attribute(Network.wall, "Rules", Rules)
+set.vertex.attribute(Network.wall, "Appropriations", Appropriations)
+set.vertex.attribute(Network.wall, "Chamber", Chamber2)
+set.vertex.attribute(Network.wall, "JointComms", Joint.Comms)
 
 ### plot
 library(sna)
@@ -196,6 +241,8 @@ party_color<-c("red","blue")
 vert.cols <- party_color[Party+1]
 
 plot(Network,vertex.cex=1,edge.col=rgb(150,150,150,100,maxColorValue=255),vertex.col=vert.cols)
+x11()
+plot(Network.all,vertex.cex=1,edge.col=rgb(150,150,150,100,maxColorValue=255),vertex.col=vert.cols)
 
 #####Drop Isolates from the data
 zz<-which(degree(Network)==0)
@@ -209,14 +256,58 @@ ChamberTX<-Chamber2[-zz]
 Joint.CommsTX<-Joint.Comms[-zz]
 TXid<-rep(1, nrow(matTX))
 
+mm<-which(degree(Network.all)==0)
+mat.all<-matrix4[-mm,-mm]
+Party.all<-Party[-mm]
+leg.namesall<-leg.names[-mm]
+Leadershipall<-Leadership[-mm]
+Rulesall<-Rules[-mm]
+Appropriationsall<-Appropriations[-mm]
+Chamberall<-Chamber2[-mm]
+Joint.Commsall<-Joint.Comms[-mm]
+allid<-rep(1, nrow(mat.all))
+
 ###Re-designate network
 Network2<-network(matTX)
+Network2.w<-network(matTX,ignore.eval=FALSE,names.eval='value')
+
+Network2.all<-network(mat.all)
+Network2.wall<-network(mat.all,ignore.eval=FALSE,names.eval='value')
+
+a<-c(mat.all)
+summary(a)
+table(a)
+which(a>0)
+x11()
+plot(density(a))
 set.vertex.attribute(Network2, "Party", PartyTX)
 set.vertex.attribute(Network2, "names", leg.namesTX)
 set.vertex.attribute(Network2, "leadership", LeadershipTX)
 set.vertex.attribute(Network2, "Appropriations", AppropriationsTX)
 set.vertex.attribute(Network2, "Chamber", ChamberTX)
 set.vertex.attribute(Network2, "JointComms", Joint.CommsTX)
+
+set.vertex.attribute(Network2.all, "Party", PartyTX)
+set.vertex.attribute(Network2.all, "names", leg.namesTX)
+set.vertex.attribute(Network2.all, "leadership", LeadershipTX)
+set.vertex.attribute(Network2.all, "Appropriations", AppropriationsTX)
+set.vertex.attribute(Network2.all, "Chamber", ChamberTX)
+set.vertex.attribute(Network2.all, "JointComms", Joint.CommsTX)
+
+set.vertex.attribute(Network2.w, "Party", PartyTX)
+set.vertex.attribute(Network2.w, "names", leg.namesTX)
+set.vertex.attribute(Network2.w, "leadership", LeadershipTX)
+set.vertex.attribute(Network2.w, "Appropriations", AppropriationsTX)
+set.vertex.attribute(Network2.w, "Chamber", ChamberTX)
+set.vertex.attribute(Network2.w, "JointComms", Joint.CommsTX)
+
+set.vertex.attribute(Network2.wall, "Party", Party.all)
+set.vertex.attribute(Network2.wall, "names", leg.namesall)
+set.vertex.attribute(Network2.wall, "leadership", Leadershipall)
+set.vertex.attribute(Network2.wall, "Appropriations", Appropriationsall)
+set.vertex.attribute(Network2.wall, "Chamber", Chamberall)
+set.vertex.attribute(Network2.wall, "JointComms", Joint.Commsall)
+
 
 ###
 vert.colsTX<-party_color[PartyTX+1]
@@ -240,11 +331,18 @@ dev.off()
 ######Reciprocity#####
 ##General
 grecip(Network2,measure="correlation")
+grecip(Network2.all,measure="correlation")
+
 ###Within Replican 
 rr<-which(PartyTX==0)
 matR<-matrix3[rr,rr]
 NetworkR<-network(matR)
 grecip(NetworkR,measure="correlation")
+
+rrall<-which(Party.all==0)
+matRall<-matrix4[rrall,rrall]
+NetworkR.all<-network(matRall)
+grecip(NetworkR.all,measure="correlation")
 
 ###Within Democrat
 dd<-which(PartyTX==1)
@@ -252,11 +350,19 @@ matD<-matrix3[dd,dd]
 NetworkD<-network(matD)
 grecip(NetworkD,measure="correlation")
 
+ddall<-which(Party.all==1)
+matDall<-matrix4[ddall,ddall]
+NetworkD.all<-network(matDall)
+grecip(NetworkD.all,measure="correlation")
+
 ###cross party
 matRD<-matrix3[c(rr,dd),c(dd,rr)]
 NetworkRD<-network(matRD)
-
 grecip(NetworkRD,measure="correlation")
+
+matRDall<-matrix3[c(rrall,ddall),c(ddall,rrall)]
+NetworkRDall<-network(matRDall)
+grecip(NetworkRDall,measure="correlation")
 
 ###Cross party leaders
 L<-which(LeadershipTX==1)
@@ -282,11 +388,128 @@ assortativity(Net.graph,get.vertex.attribute(Network2,"leadership"),
               get.vertex.attribute(Network2,"Party"))
 assortativity.degree(Net.graph)
 
+###ERGM
 set.seed(111)
-mod.exTX<-ergm(Network2~edges+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+ostar(2), control=control.ergm(MCMC.samplesize=50000, MCMLE.maxit=50, MCMC.burnin=7500, MCMC.interval=1000))
-summary(mod.exTX)
+#Original
+mod.o<-ergm(Network2~edges+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+ostar(2), control=control.ergm(MCMC.samplesize=50000, MCMLE.maxit=50, MCMC.burnin=7500, MCMC.interval=1000,parallel=3, parallel.type="PSOCK"))
 
-stargazer(mod.exTX)
+#Change to istar(3)
+mod.i3<-ergm(Network2~edges+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+istar(3),control=control.ergm(MCMC.samplesize=50000, MCMLE.maxit=50, MCMC.burnin=7500, MCMC.interval=1000,parallel=3, parallel.type="PSOCK"))
+
+#Add isolates
+mod.ois<-ergm(Network~edges+isolates+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+istar(3), control=control.ergm(MCMC.samplesize=50000, MCMLE.maxit=50, MCMC.burnin=7500, MCMC.interval=1000,parallel=3, parallel.type="PSOCK"))
+mod.ois2<-ergm(Network~edges+isolates+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+istar(3) + odegree(2), control=control.ergm(MCMC.samplesize=50000, MCMLE.maxit=50, MCMC.burnin=7500, MCMC.interval=1000,parallel=3, parallel.type="PSOCK"))
+
+#weighted
+library(ergm.count)
+mod.ow<-ergm(Network2.w~edges+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+ostar(2), references="Poisson",control=control.ergm(MCMC.samplesize=50000, MCMLE.maxit=50, MCMC.burnin=7500, MCMC.interval=1000,parallel=3, parallel.type="PSOCK"))
+
+mod.owp<-ergm(Network2.w~edges+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+ostar(2), references="Poisson",control=control.ergm(MCMC.prop.args=list(p0=0.4),MCMC.samplesize=50000, MCMLE.maxit=50, MCMC.burnin=7500, MCMC.interval=1000,parallel=3, parallel.type="PSOCK"))
+mod.oiwp<-ergm(Network2.w~edges+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+istar(3), references="Poisson",control=control.ergm(MCMC.prop.args=list(p0=0.4),MCMC.samplesize=50000, MCMLE.maxit=50, MCMC.burnin=7500, MCMC.interval=1000,parallel=3, parallel.type="PSOCK"))
+
+mod.oiw<-ergm(Network2.w~edges+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+istar(3), references="Poisson",control=control.ergm(MCMC.samplesize=50000, MCMLE.maxit=50, MCMC.burnin=7500, MCMC.interval=1000,parallel=3, parallel.type="PSOCK"))
+mod.oisw<-ergm(Network.w~edges+isolates+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+istar(3), references="Poisson",control=control.ergm(MCMC.samplesize=50000, MCMLE.maxit=50, MCMC.burnin=7500, MCMC.interval=1000,parallel=3, parallel.type="PSOCK"))
+#0inflate
+mod.owz<-ergm(Network2.w~edges+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+istar(3), references="ZIPoisson",control=control.ergm(MCMC.samplesize=50000, MCMLE.maxit=50, MCMC.burnin=7500, MCMC.interval=1000,parallel=3, parallel.type="PSOCK"))
+
+stargazer(mod.o,mod.i3,mod.ois)
+stargazer(mod.o,mod.ow,mod.owp,mod.oiw)
+
+#Add within chamber ties
+mod.allt<-ergm(Network2.all~edges+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+mutual(same="Chamber")+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+transitive, control=control.ergm(MCMC.samplesize=10000,MCMLE.maxit=50,parallel=3, parallel.type="PSOCK"),estimate="MPLE")
+
+mod.alltt<-ergm(Network2.all~edges+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+mutual(same="Chamber")+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+transitive, control=control.ergm(MCMC.samplesize=10000,MCMLE.maxit=50,parallel=3, parallel.type="PSOCK"),estimate="MPLE")
+
+mod.all300<-ergm(Network2.all~edges+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+mutual(same="Chamber")+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+triadcensus(d=15), control=control.ergm(MCMC.samplesize=10000,MCMLE.maxit=50,parallel=3, parallel.type="PSOCK"),estimate="MPLE")
+
+mod.all<-ergm(Network2.all~edges+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+mutual(same="Chamber")+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+gwesp(fixed=T), control=control.ergm(MCMC.samplesize=50000, MCMLE.maxit=50, MCMC.burnin=7500, MCMC.interval=1000,parallel=3, parallel.type="PSOCK"),estimate="MPLE")
+
+stargazer(mod.all)
+#mod.TXtry2<-ergm(Network2~edges+nodematch("Chamber")+mutual+mutual(same="Party", diff=TRUE)+nodematch("Party", diff=TRUE)+nodematch("leadership", diff=TRUE)+nodematch("JointComms")+gwodegree(2), control=control.ergm(MCMC.samplesize=5000, MCMLE.maxit=50, MCMC.burnin=7500, MCMC.interval=1000))
+library(parallel)
+summary(mod.TXall)
+##Model fit
+x11() 
+par(mfrow=c(4,1)); plot(gof(mod.o,control.gof.ergm(parallel=3, parallel.type="MPI")),plot.type="All")
+
+pdf("gofi3.pdf")
+par(mfrow=c(4,1)); plot(gof(mod.i3,control.gof.ergm(parallel=3, parallel.type="MPI")),plot.type="All")
+dev.off()
+
+pdf("gofois.pdf")
+par(mfrow=c(4,1)); plot(gof(mod.ois,control.gof.ergm(parallel=3, parallel.type="MPI")),plot.type="All")
+dev.off()
+
+pdf("gofois2.pdf")
+par(mfrow=c(4,1)); plot(gof(mod.ois2,control.gof.ergm(parallel=3, parallel.type="MPI")),plot.type="All")
+dev.off()
+
+pdf("gofoisw.pdf")
+par(mfrow=c(4,1)); plot(gof(mod.oisw,control.gof.ergm(parallel=3, parallel.type="MPI")),plot.type="All")
+dev.off()
+
+pdf("gofow.pdf")
+par(mfrow=c(4,1)); plot(gof(mod.ow,control.gof.ergm(parallel=3, parallel.type="MPI")),plot.type="All")
+dev.off()
+
+pdf("gofowp.pdf")
+par(mfrow=c(4,1)); plot(gof(mod.owp,control.gof.ergm(parallel=3, parallel.type="MPI")),plot.type="All")
+dev.off()
+
+pdf("gofoiwp.pdf")
+par(mfrow=c(4,1)); plot(gof(mod.oiwp,control.gof.ergm(parallel=3, parallel.type="MPI")),plot.type="All")
+dev.off()
+
+pdf("gofowz.pdf")
+par(mfrow=c(4,1)); plot(gof(mod.owz,control.gof.ergm(parallel=3, parallel.type="MPI")),plot.type="All")
+dev.off()
+
+
+pdf("gof.pdf")
+fit<-gof(mod.exTX)
+fit<-gof(mod.TXtry) 
+par(mfrow=c(4,1)); plot(fit,plot.type="All")
+dev.off()
+
+pdf("gof2.pdf")
+par(mfrow=c(4,1)); plot(fit,plot.type="All")
+dev.off()
+
+pdf("MCMCdo.pdf")
+mcmc.diagnostics(mod.o)
+dev.off()
+
+pdf("MCMCdois.pdf")
+mcmc.diagnostics(mod.ois)
+dev.off()
+
+pdf("MCMCdois2.pdf")
+mcmc.diagnostics(mod.ois2)
+dev.off()
+
+pdf("MCMCdoisw.pdf")
+mcmc.diagnostics(mod.oisw)
+dev.off()
+
+pdf("MCMCdow.pdf")
+mcmc.diagnostics(mod.ow)
+dev.off()
+
+pdf("MCMCdowz.pdf")
+mcmc.diagnostics(mod.owz)
+dev.off()
+
+pdf("MCMCdowp.pdf")
+mcmc.diagnostics(mod.owp)
+dev.off()
+
+pdf("MCMCdoiwp.pdf")
+mcmc.diagnostics(mod.oiwp)
+dev.off()
+
+pdf("MCMCallt.pdf")
+mcmc.diagnostics(mod.allt)
+dev.off()
 
 dput(mod.exTX, file="TexasResults2.txt")
 
@@ -1343,7 +1566,7 @@ dev.off()
 ##Texas Only Effects#################
 
 pdf("TexasTies.pdf")
-plot(1, mean(TXm1), xlim=c(0.75, 3.25), ylim=c(0.2, 2.5), pch="", cex=1.5, xaxt="n", xlab="Dyad Type", ylab="Ties (Estimated) / Ties (Null)")
+plot(1, mean(TXm1), xlim=c(0.75, 3.25), ylim=c(0.2, 2), pch="", cex=1.5, xaxt="n", xlab="Dyad Type", ylab="Ties (Estimated) / Ties (Null)")
 polygon(x=c(0.75, 0.75, 1.25, 1.25), y=c(1, mean(TXm1, na.rm=T), mean(TXm1, na.rm=T), 1), col="grey")
 polygon(x=c(1.75, 1.75, 2.25, 2.25), y=c(1, mean(TXm2, na.rm=T), mean(TXm2, na.rm=T), 1), col="blue")
 polygon(x=c(2.75, 2.75, 3.25, 3.25), y=c(1, mean(TXm3, na.rm=T), mean(TXm3, na.rm=T), 1), col="red")
@@ -1353,7 +1576,7 @@ segments(3, quantile(TXm3, 0.005), 3, quantile(TXm3, 0.995), lwd=3)
 axis(1, at=c(1,2,3), labels=c("Cross Party Ties", "Within Democratic Ties", "Within Republican Ties"), cex.axis=0.8)
 abline(h=seq(0.5, 2.5, by=0.5), lty=2, lwd=0.75, col="grey")
 abline(h=1,lwd=3)
-legend(0.75,2.25, c("Both Democrats Effect", "Both Republicans Effect", "Cross Party Effect", "95% Confidence Interval"), lty=c(1,1,1,1), col=c("blue", "red", "grey", "black"), lwd=c(3,3,3,2), bg="white", cex=0.8)
+legend(0.75,1.8, c("Both Democrats Effect", "Both Republicans Effect", "Cross Party Effect", "95% Confidence Interval"), lty=c(1,1,1,1), col=c("blue", "red", "grey", "black"), lwd=c(3,3,3,2), bg="white", cex=0.8)
 title(main="Multiplicative Change in Frequency of Ties by \nDyad Type from Null Model to Estimated Model", sub="81st Texas State Legislature")
 dev.off()
 
